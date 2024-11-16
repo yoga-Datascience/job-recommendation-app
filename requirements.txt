@@ -3,5 +3,4 @@ pandas==1.5.3
 scikit-learn==1.2.2
 sentence-transformers==2.2.2
 spacy==3.5.3
-torch==2.0.1
 numpy==1.24.2
