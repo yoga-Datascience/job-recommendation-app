@@ -4,6 +4,7 @@ import spacy
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer, util
+import numpy as np
 
 # Set page configuration
 st.set_page_config(page_title="Job Recommendation System", layout="wide")
@@ -30,11 +31,20 @@ def load_job_data(file_path):
 
 @st.cache_resource
 def load_spacy_model():
-    return spacy.load("en_core_web_sm")
+    try:
+        return spacy.load("en_core_web_sm")
+    except OSError:
+        from spacy.cli import download
+        download("en_core_web_sm")
+        return spacy.load("en_core_web_sm")
 
 @st.cache_resource
 def load_bert_model():
-    return SentenceTransformer("paraphrase-MiniLM-L6-v2")
+    return SentenceTransformer("all-MiniLM-L6-v2")  # Lighter model
+
+@st.cache_data
+def load_job_embeddings(file_path):
+    return np.load(file_path)
 
 # Load geography data
 try:
@@ -72,7 +82,7 @@ if st.button("Submit"):
     st.write(f"**Education:** {education}")
     st.write(f"**Job Description:** {job_description}")
 
-# Load models
+# Load models and embeddings
 nlp = load_spacy_model()
 model = load_bert_model()
 
@@ -85,27 +95,27 @@ if job_description:
     processed_description = preprocess_text(job_description)
     st.markdown(f"**Preprocessed Job Description:** {processed_description}")
 
-# Load job duties data
+# Load job duties data and embeddings
 try:
     duties_df = load_job_data("All_duties.txt")
-    st.success("Dataset Loaded Successfully!")
+    job_embeddings = load_job_embeddings("job_embeddings.npy")
+    st.success("Dataset and Embeddings Loaded Successfully!")
     st.dataframe(duties_df.head())
 except FileNotFoundError:
-    st.error("Dataset not found. Please ensure 'All_duties.txt' is in the same directory.")
+    st.error("Dataset or Embeddings not found. Please ensure 'All_duties.txt' and 'job_embeddings.npy' are in the same directory.")
 
 # Initialize TF-IDF Vectorizer
 @st.cache_resource
-def get_tfidf_matrix(data):
+def get_tfidf_vectorizer(data):
     vectorizer = TfidfVectorizer(stop_words="english", max_df=0.8, min_df=2, ngram_range=(1, 2))
-    return vectorizer.fit_transform(data)
+    vectorizer.fit(data)
+    return vectorizer
 
-tfidf_vectorizer = TfidfVectorizer(stop_words="english", max_df=0.8, min_df=2, ngram_range=(1, 2))
-tfidf_matrix = tfidf_vectorizer.fit_transform(duties_df["Job_Duties"].fillna(""))
+tfidf_vectorizer = get_tfidf_vectorizer(duties_df["Job_Duties"].fillna(""))
 
-# Encode job duties using BERT
-job_embeddings = model.encode(duties_df["Job_Duties"].fillna("").tolist(), convert_to_tensor=True)
+tfidf_matrix = tfidf_vectorizer.transform(duties_df["Job_Duties"].fillna(""))
 
-def find_top_matches(user_input, tfidf_vectorizer, tfidf_matrix, model, job_embeddings, top_n=5):
+def find_top_matches(user_input, tfidf_vectorizer, tfidf_matrix, job_embeddings, top_n=5):
     # Preprocess user input
     user_input_processed = preprocess_text(user_input)
 
@@ -114,8 +124,8 @@ def find_top_matches(user_input, tfidf_vectorizer, tfidf_matrix, model, job_embe
     tfidf_scores = cosine_similarity(tfidf_vector, tfidf_matrix).flatten()
 
     # BERT similarity
-    user_embedding = model.encode(user_input_processed, convert_to_tensor=True)
-    bert_scores = util.pytorch_cos_sim(user_embedding, job_embeddings)[0].cpu().numpy()
+    user_embedding = model.encode(user_input_processed, convert_to_tensor=False)
+    bert_scores = cosine_similarity([user_embedding], job_embeddings).flatten()
 
     # Combine scores
     combined_scores = 0.5 * tfidf_scores + 0.5 * bert_scores
@@ -126,7 +136,7 @@ def find_top_matches(user_input, tfidf_vectorizer, tfidf_matrix, model, job_embe
 
 if st.button("Find Matches"):
     if job_description:
-        top_matches, scores = find_top_matches(job_description, tfidf_vectorizer, tfidf_matrix, model, job_embeddings)
+        top_matches, scores = find_top_matches(job_description, tfidf_vectorizer, tfidf_matrix, job_embeddings)
         st.session_state["top_matches"] = top_matches
         st.session_state["scores"] = scores
 
@@ -149,4 +159,3 @@ if st.button("Filter Recommendations"):
         st.dataframe(filtered_matches)
     else:
         st.error("No matches found. Please run 'Find Matches' first.")
-
