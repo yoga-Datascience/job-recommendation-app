@@ -3,7 +3,7 @@ import streamlit as st
 from sentence_transformers import SentenceTransformer, util
 
 # Load the data files
-salary_df = pd.read_csv('Salary.csv')
+salary_df = pd.read_csv('Salary.csv', low_memory=False)
 duties_df = pd.read_csv('Duties.csv')
 education_df = pd.read_csv('Education.csv')
 geography_df = pd.read_csv('Geography.csv')
@@ -25,7 +25,7 @@ for df in [salary_df, duties_df, education_df, prestige_df]:
 salary_df = salary_df.merge(geography_df[['Area', 'State', 'CountyTownName']], on='Area', how='left')
 
 # Load BERT model and encode job duties once
-@st.cache(allow_output_mutation=True)
+@st.cache_resource
 def load_model_and_embeddings():
     model = SentenceTransformer('all-MiniLM-L6-v2')
     duties_df['Job_Duties'] = duties_df['Job_Duties'].fillna('')
