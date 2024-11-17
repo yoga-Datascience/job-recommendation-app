@@ -3,11 +3,11 @@ import streamlit as st
 from sentence_transformers import SentenceTransformer, util
 
 # Load the data files
-salary_df = pd.read_csv('/home/yoga/Archive/Projects/job-recommendation-app/Salary.csv')
-duties_df = pd.read_csv('/home/yoga/Archive/Projects/job-recommendation-app/Duties.csv')
-education_df = pd.read_csv('/home/yoga/Archive/Projects/job-recommendation-app/Education.csv')
-geography_df = pd.read_csv('/home/yoga/Archive/Projects/job-recommendation-app/Geography.csv')
-prestige_df = pd.read_csv('/home/yoga/Archive/Projects/job-recommendation-app/Prestige.csv')
+salary_df = pd.read_csv('Salary.csv')
+duties_df = pd.read_csv('Duties.csv')
+education_df = pd.read_csv('Education.csv')
+geography_df = pd.read_csv('Geography.csv')
+prestige_df = pd.read_csv('Prestige.csv')
 
 # Standardize 'Soc Code's across DataFrames
 def standardize_soc_code(soc_code):
