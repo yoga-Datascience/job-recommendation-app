@@ -1,0 +1,998 @@
+Code,Soc Code,SOC Broad Occupation,Title,Education,Source
+11-1011.00,11-1011,11-1010,Chief Executives,Bachelor's degree,BLS Data
+11-1011.03,11-1011,11-1010,Chief Sustainability Officers,Bachelor's degree,BLS Data
+11-1021.00,11-1021,11-1020,General and Operations Managers,Bachelor's degree,BLS Data
+11-1031.00,11-1031,11-1030,Legislators,Bachelor's degree,BLS Data
+11-2011.00,11-2011,11-2010,Advertising and Promotions Managers,Bachelor's degree,BLS Data
+11-2021.00,11-2021,11-2020,Marketing Managers,Bachelor's degree,BLS Data
+11-2022.00,11-2022,11-2020,Sales Managers,Bachelor's degree,BLS Data
+11-2032.00,11-2032,11-2030,Public Relations Managers,Bachelor's degree,BLS Data
+11-2033.00,11-2033,11-2030,Fundraising Managers,Bachelor's degree,BLS Data
+11-3012.00,11-3012,11-3010,Administrative Services Managers,Bachelor's degree,BLS Data
+11-3013.00,11-3013,11-3010,Facilities Managers,Bachelor's degree,BLS Data
+11-3013.01,11-3013,11-3010,Security Managers,Bachelor's degree,BLS Data
+11-3021.00,11-3021,11-3020,Computer and Information Systems Managers,Bachelor's degree,BLS Data
+11-3031.00,11-3031,11-3030,Financial Managers,Bachelor's degree,BLS Data
+11-3031.01,11-3031,11-3030,Treasurers and Controllers,Bachelor's degree,BLS Data
+11-3031.03,11-3031,11-3030,Investment Fund Managers,Bachelor's degree,BLS Data
+11-3051.00,11-3051,11-3050,Industrial Production Managers,Bachelor's degree,BLS Data
+11-3051.01,11-3051,11-3050,Quality Control Systems Managers,Bachelor's degree,BLS Data
+11-3051.02,11-3051,11-3050,Geothermal Production Managers,Bachelor's degree,BLS Data
+11-3051.03,11-3051,11-3050,Biofuels Production Managers,Bachelor's degree,BLS Data
+11-3051.04,11-3051,11-3050,Biomass Power Plant Managers,Bachelor's degree,BLS Data
+11-3051.06,11-3051,11-3050,Hydroelectric Production Managers,Bachelor's degree,BLS Data
+11-3061.00,11-3061,11-3060,Purchasing Managers,Bachelor's degree,BLS Data
+11-3071.00,11-3071,11-3070,"Transportation, Storage, and Distribution Managers",High school diploma or equivalent,BLS Data
+11-3071.04,11-3071,11-3070,Supply Chain Managers,High school diploma or equivalent,BLS Data
+11-3111.00,11-3111,11-3110,Compensation and Benefits Managers,Bachelor's degree,BLS Data
+11-3121.00,11-3121,11-3120,Human Resources Managers,Bachelor's degree,BLS Data
+11-3131.00,11-3131,11-3130,Training and Development Managers,Bachelor's degree,BLS Data
+11-9013.00,11-9013,11-9010,"Farmers, Ranchers, and Other Agricultural Managers",High school diploma or equivalent,BLS Data
+11-9021.00,11-9021,11-9020,Construction Managers,Bachelor's degree,BLS Data
+11-9031.00,11-9031,11-9030,"Education and Childcare Administrators, Preschool and Daycare",Bachelor's degree,BLS Data
+11-9032.00,11-9032,11-9030,"Education Administrators, Kindergarten through Secondary",Master's degree,BLS Data
+11-9033.00,11-9033,11-9030,"Education Administrators, Postsecondary",Master's degree,BLS Data
+11-9039.00,11-9039,11-9030,"Education Administrators, All Other",Bachelor's degree,BLS Data
+11-9041.00,11-9041,11-9040,Architectural and Engineering Managers,Bachelor's degree,BLS Data
+11-9041.01,11-9041,11-9040,Biofuels/Biodiesel Technology and Product Development Managers,Bachelor's degree,BLS Data
+11-9051.00,11-9051,11-9050,Food Service Managers,High school diploma or equivalent,BLS Data
+11-9071.00,11-9071,11-9070,Gambling Managers,High school diploma or equivalent,BLS Data
+11-9072.00,11-9072,11-9070,"Entertainment and Recreation Managers, Except Gambling",Bachelor's degree,BLS Data
+11-9081.00,11-9081,11-9080,Lodging Managers,High school diploma or equivalent,BLS Data
+11-9111.00,11-9111,11-9110,Medical and Health Services Managers,Bachelor's degree,BLS Data
+11-9121.00,11-9121,11-9120,Natural Sciences Managers,Bachelor's degree,BLS Data
+11-9121.01,11-9121,11-9120,Clinical Research Coordinators,Bachelor's degree,BLS Data
+11-9121.02,11-9121,11-9120,Water Resource Specialists,Bachelor's degree,BLS Data
+11-9131.00,11-9131,11-9130,Postmasters and Mail Superintendents,High school diploma or equivalent,BLS Data
+11-9141.00,11-9141,11-9140,"Property, Real Estate, and Community Association Managers",High school diploma or equivalent,BLS Data
+11-9151.00,11-9151,11-9150,Social and Community Service Managers,Bachelor's degree,BLS Data
+11-9161.00,11-9161,11-9160,Emergency Management Directors,Bachelor's degree,BLS Data
+11-9171.00,11-9171,11-9170,Funeral Home Managers,Associate's degree,BLS Data
+11-9179.00,11-9179,11-9170,"Personal Service Managers, All Other",High school diploma or equivalent,BLS Data
+11-9179.01,11-9179,11-9170,Fitness and Wellness Coordinators,High school diploma or equivalent,BLS Data
+11-9179.02,11-9179,11-9170,Spa Managers,High school diploma or equivalent,BLS Data
+11-9199.00,11-9199,11-9190,"Managers, All Other",Bachelor's degree,BLS Data
+11-9199.01,11-9199,11-9190,Regulatory Affairs Managers,Bachelor's degree,BLS Data
+11-9199.02,11-9199,11-9190,Compliance Managers,Bachelor's degree,BLS Data
+11-9199.08,11-9199,11-9190,Loss Prevention Managers,Bachelor's degree,BLS Data
+11-9199.09,11-9199,11-9190,Wind Energy Operations Managers,Bachelor's degree,BLS Data
+11-9199.10,11-9199,11-9190,Wind Energy Development Managers,Bachelor's degree,BLS Data
+11-9199.11,11-9199,11-9190,Brownfield Redevelopment Specialists and Site Managers,Bachelor's degree,BLS Data
+13-1011.00,13-1011,13-1010,"Agents and Business Managers of Artists, Performers, and Athletes",Bachelor's degree,BLS Data
+13-1021.00,13-1021,13-1020,"Buyers and Purchasing Agents, Farm Products",Bachelor's degree,SOC Broad Occupation Group
+13-1022.00,13-1022,13-1020,"Wholesale and Retail Buyers, Except Farm Products",Bachelor's degree,SOC Broad Occupation Group
+13-1023.00,13-1023,13-1020,"Purchasing Agents, Except Wholesale, Retail, and Farm Products",Bachelor's degree,SOC Broad Occupation Group
+13-1031.00,13-1031,13-1030,"Claims Adjusters, Examiners, and Investigators",High school diploma or equivalent,BLS Data
+13-1032.00,13-1032,13-1030,"Insurance Appraisers, Auto Damage",High school diploma or equivalent,BLS Data
+13-1041.00,13-1041,13-1040,Compliance Officers,Bachelor's degree,BLS Data
+13-1041.01,13-1041,13-1040,Environmental Compliance Inspectors,Bachelor's degree,BLS Data
+13-1041.03,13-1041,13-1040,Equal Opportunity Representatives and Officers,Bachelor's degree,BLS Data
+13-1041.04,13-1041,13-1040,Government Property Inspectors and Investigators,Bachelor's degree,BLS Data
+13-1041.06,13-1041,13-1040,Coroners,Bachelor's degree,BLS Data
+13-1041.07,13-1041,13-1040,Regulatory Affairs Specialists,Bachelor's degree,BLS Data
+13-1041.08,13-1041,13-1040,Customs Brokers,Bachelor's degree,BLS Data
+13-1051.00,13-1051,13-1050,Cost Estimators,Bachelor's degree,BLS Data
+13-1071.00,13-1071,13-1070,Human Resources Specialists,Bachelor's degree,BLS Data
+13-1074.00,13-1074,13-1070,Farm Labor Contractors,None,BLS Data
+13-1075.00,13-1075,13-1070,Labor Relations Specialists,Bachelor's degree,BLS Data
+13-1081.00,13-1081,13-1080,Logisticians,Bachelor's degree,BLS Data
+13-1081.01,13-1081,13-1080,Logistics Engineers,Bachelor's degree,BLS Data
+13-1081.02,13-1081,13-1080,Logistics Analysts,Bachelor's degree,BLS Data
+13-1082.00,13-1082,13-1080,Project Management Specialists,Bachelor's degree,BLS Data
+13-1111.00,13-1111,13-1110,Management Analysts,Bachelor's degree,BLS Data
+13-1121.00,13-1121,13-1120,"Meeting, Convention, and Event Planners",Bachelor's degree,BLS Data
+13-1131.00,13-1131,13-1130,Fundraisers,Bachelor's degree,BLS Data
+13-1141.00,13-1141,13-1140,"Compensation, Benefits, and Job Analysis Specialists",Bachelor's degree,BLS Data
+13-1151.00,13-1151,13-1150,Training and Development Specialists,Bachelor's degree,BLS Data
+13-1161.00,13-1161,13-1160,Market Research Analysts and Marketing Specialists,Bachelor's degree,BLS Data
+13-1161.01,13-1161,13-1160,Search Marketing Strategists,Bachelor's degree,BLS Data
+13-1199.00,13-1199,13-1190,"Business Operations Specialists, All Other",Bachelor's degree,BLS Data
+13-1199.04,13-1199,13-1190,Business Continuity Planners,Bachelor's degree,BLS Data
+13-1199.05,13-1199,13-1190,Sustainability Specialists,Bachelor's degree,BLS Data
+13-1199.06,13-1199,13-1190,Online Merchants,Bachelor's degree,BLS Data
+13-1199.07,13-1199,13-1190,Security Management Specialists,Bachelor's degree,BLS Data
+13-2011.00,13-2011,13-2010,Accountants and Auditors,Bachelor's degree,BLS Data
+13-2022.00,13-2022,13-2020,Appraisers of Personal and Business Property,Bachelor's degree,SOC Broad Occupation Group
+13-2023.00,13-2023,13-2020,Appraisers and Assessors of Real Estate,Bachelor's degree,SOC Broad Occupation Group
+13-2031.00,13-2031,13-2030,Budget Analysts,Bachelor's degree,BLS Data
+13-2041.00,13-2041,13-2040,Credit Analysts,Bachelor's degree,BLS Data
+13-2051.00,13-2051,13-2050,Financial and Investment Analysts,Bachelor's degree,BLS Data
+13-2052.00,13-2052,13-2050,Personal Financial Advisors,Bachelor's degree,BLS Data
+13-2053.00,13-2053,13-2050,Insurance Underwriters,Bachelor's degree,BLS Data
+13-2054.00,13-2054,13-2050,Financial Risk Specialists,Bachelor's degree,BLS Data
+13-2061.00,13-2061,13-2060,Financial Examiners,Bachelor's degree,BLS Data
+13-2071.00,13-2071,13-2070,Credit Counselors,Bachelor's degree,BLS Data
+13-2072.00,13-2072,13-2070,Loan Officers,Bachelor's degree,BLS Data
+13-2081.00,13-2081,13-2080,"Tax Examiners and Collectors, and Revenue Agents",Bachelor's degree,BLS Data
+13-2082.00,13-2082,13-2080,Tax Preparers,High school diploma or equivalent,BLS Data
+13-2099.00,13-2099,13-2090,"Financial Specialists, All Other",Bachelor's degree,BLS Data
+13-2099.01,13-2099,13-2090,Financial Quantitative Analysts,Bachelor's degree,BLS Data
+13-2099.04,13-2099,13-2090,"Fraud Examiners, Investigators and Analysts",Bachelor's degree,BLS Data
+15-1211.00,15-1211,15-1210,Computer Systems Analysts,Bachelor's degree,BLS Data
+15-1211.01,15-1211,15-1210,Health Informatics Specialists,Bachelor's degree,BLS Data
+15-1212.00,15-1212,15-1210,Information Security Analysts,Bachelor's degree,BLS Data
+15-1221.00,15-1221,15-1220,Computer and Information Research Scientists,Master's degree,BLS Data
+15-1231.00,15-1231,15-1230,Computer Network Support Specialists,Associate's degree,BLS Data
+15-1232.00,15-1232,15-1230,Computer User Support Specialists,High school diploma or equivalent,BLS Data
+15-1241.00,15-1241,15-1240,Computer Network Architects,Bachelor's degree,BLS Data
+15-1241.01,15-1241,15-1240,Telecommunications Engineering Specialists,Bachelor's degree,BLS Data
+15-1242.00,15-1242,15-1240,Database Administrators,Bachelor's degree,BLS Data
+15-1243.00,15-1243,15-1240,Database Architects,Bachelor's degree,BLS Data
+15-1243.01,15-1243,15-1240,Data Warehousing Specialists,Bachelor's degree,BLS Data
+15-1244.00,15-1244,15-1240,Network and Computer Systems Administrators,Bachelor's degree,BLS Data
+15-1251.00,15-1251,15-1250,Computer Programmers,Bachelor's degree,BLS Data
+15-1252.00,15-1252,15-1250,Software Developers,Bachelor's degree,BLS Data
+15-1253.00,15-1253,15-1250,Software Quality Assurance Analysts and Testers,Bachelor's degree,BLS Data
+15-1254.00,15-1254,15-1250,Web Developers,Bachelor's degree,BLS Data
+15-1255.00,15-1255,15-1250,Web and Digital Interface Designers,Bachelor's degree,BLS Data
+15-1255.01,15-1255,15-1250,Video Game Designers,Bachelor's degree,BLS Data
+15-1299.00,15-1299,15-1290,"Computer Occupations, All Other",Bachelor's degree,BLS Data
+15-1299.01,15-1299,15-1290,Web Administrators,Bachelor's degree,BLS Data
+15-1299.02,15-1299,15-1290,Geographic Information Systems Technologists and Technicians,Bachelor's degree,BLS Data
+15-1299.03,15-1299,15-1290,Document Management Specialists,Bachelor's degree,BLS Data
+15-1299.04,15-1299,15-1290,Penetration Testers,Bachelor's degree,BLS Data
+15-1299.05,15-1299,15-1290,Information Security Engineers,Bachelor's degree,BLS Data
+15-1299.06,15-1299,15-1290,Digital Forensics Analysts,Bachelor's degree,BLS Data
+15-1299.07,15-1299,15-1290,Blockchain Engineers,Bachelor's degree,BLS Data
+15-1299.08,15-1299,15-1290,Computer Systems Engineers/Architects,Bachelor's degree,BLS Data
+15-1299.09,15-1299,15-1290,Information Technology Project Managers,Bachelor's degree,BLS Data
+15-2011.00,15-2011,15-2010,Actuaries,Bachelor's degree,BLS Data
+15-2021.00,15-2021,15-2020,Mathematicians,Master's degree,BLS Data
+15-2031.00,15-2031,15-2030,Operations Research Analysts,Bachelor's degree,BLS Data
+15-2041.00,15-2041,15-2040,Statisticians,Master's degree,BLS Data
+15-2041.01,15-2041,15-2040,Biostatisticians,Master's degree,BLS Data
+15-2051.00,15-2051,15-2050,Data Scientists,Bachelor's degree,BLS Data
+15-2051.01,15-2051,15-2050,Business Intelligence Analysts,Bachelor's degree,BLS Data
+15-2051.02,15-2051,15-2050,Clinical Data Managers,Bachelor's degree,BLS Data
+15-2099.00,15-2099,15-2090,"Mathematical Science Occupations, All Other",Bachelor's degree,BLS Data
+15-2099.01,15-2099,15-2090,Bioinformatics Technicians,Bachelor's degree,BLS Data
+17-1011.00,17-1011,17-1010,"Architects, Except Landscape and Naval",Bachelor's degree,BLS Data
+17-1012.00,17-1012,17-1010,Landscape Architects,Bachelor's degree,BLS Data
+17-1021.00,17-1021,17-1020,Cartographers and Photogrammetrists,Bachelor's degree,BLS Data
+17-1022.00,17-1022,17-1020,Surveyors,Bachelor's degree,BLS Data
+17-1022.01,17-1022,17-1020,Geodetic Surveyors,Bachelor's degree,BLS Data
+17-2011.00,17-2011,17-2010,Aerospace Engineers,Bachelor's degree,BLS Data
+17-2021.00,17-2021,17-2020,Agricultural Engineers,Bachelor's degree,BLS Data
+17-2031.00,17-2031,17-2030,Bioengineers and Biomedical Engineers,Bachelor's degree,BLS Data
+17-2041.00,17-2041,17-2040,Chemical Engineers,Bachelor's degree,BLS Data
+17-2051.00,17-2051,17-2050,Civil Engineers,Bachelor's degree,BLS Data
+17-2051.01,17-2051,17-2050,Transportation Engineers,Bachelor's degree,BLS Data
+17-2051.02,17-2051,17-2050,Water/Wastewater Engineers,Bachelor's degree,BLS Data
+17-2061.00,17-2061,17-2060,Computer Hardware Engineers,Bachelor's degree,BLS Data
+17-2071.00,17-2071,17-2070,Electrical Engineers,Bachelor's degree,BLS Data
+17-2072.00,17-2072,17-2070,"Electronics Engineers, Except Computer",Bachelor's degree,BLS Data
+17-2072.01,17-2072,17-2070,Radio Frequency Identification Device Specialists,Bachelor's degree,BLS Data
+17-2081.00,17-2081,17-2080,Environmental Engineers,Bachelor's degree,BLS Data
+17-2111.00,17-2111,17-2110,"Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",Bachelor's degree,BLS Data
+17-2111.02,17-2111,17-2110,Fire-Prevention and Protection Engineers,Bachelor's degree,BLS Data
+17-2112.00,17-2112,17-2110,Industrial Engineers,Bachelor's degree,BLS Data
+17-2112.01,17-2112,17-2110,Human Factors Engineers and Ergonomists,Bachelor's degree,BLS Data
+17-2112.02,17-2112,17-2110,Validation Engineers,Bachelor's degree,BLS Data
+17-2112.03,17-2112,17-2110,Manufacturing Engineers,Bachelor's degree,BLS Data
+17-2121.00,17-2121,17-2120,Marine Engineers and Naval Architects,Bachelor's degree,BLS Data
+17-2131.00,17-2131,17-2130,Materials Engineers,Bachelor's degree,BLS Data
+17-2141.00,17-2141,17-2140,Mechanical Engineers,Bachelor's degree,BLS Data
+17-2141.01,17-2141,17-2140,Fuel Cell Engineers,Bachelor's degree,BLS Data
+17-2141.02,17-2141,17-2140,Automotive Engineers,Bachelor's degree,BLS Data
+17-2151.00,17-2151,17-2150,"Mining and Geological Engineers, Including Mining Safety Engineers",Bachelor's degree,BLS Data
+17-2161.00,17-2161,17-2160,Nuclear Engineers,Bachelor's degree,BLS Data
+17-2171.00,17-2171,17-2170,Petroleum Engineers,Bachelor's degree,BLS Data
+17-2199.00,17-2199,17-2190,"Engineers, All Other",Bachelor's degree,BLS Data
+17-2199.03,17-2199,17-2190,"Energy Engineers, Except Wind and Solar",Bachelor's degree,BLS Data
+17-2199.05,17-2199,17-2190,Mechatronics Engineers,Bachelor's degree,BLS Data
+17-2199.06,17-2199,17-2190,Microsystems Engineers,Bachelor's degree,BLS Data
+17-2199.07,17-2199,17-2190,Photonics Engineers,Bachelor's degree,BLS Data
+17-2199.08,17-2199,17-2190,Robotics Engineers,Bachelor's degree,BLS Data
+17-2199.09,17-2199,17-2190,Nanosystems Engineers,Bachelor's degree,BLS Data
+17-2199.10,17-2199,17-2190,Wind Energy Engineers,Bachelor's degree,BLS Data
+17-2199.11,17-2199,17-2190,Solar Energy Systems Engineers,Bachelor's degree,BLS Data
+17-3011.00,17-3011,17-3010,Architectural and Civil Drafters,Associate's degree,BLS Data
+17-3012.00,17-3012,17-3010,Electrical and Electronics Drafters,Associate's degree,BLS Data
+17-3013.00,17-3013,17-3010,Mechanical Drafters,Associate's degree,BLS Data
+17-3019.00,17-3019,17-3010,"Drafters, All Other",Associate's degree,BLS Data
+17-3021.00,17-3021,17-3020,Aerospace Engineering and Operations Technologists and Technicians,Associate's degree,BLS Data
+17-3022.00,17-3022,17-3020,Civil Engineering Technologists and Technicians,Associate's degree,BLS Data
+17-3023.00,17-3023,17-3020,Electrical and Electronic Engineering Technologists and Technicians,Associate's degree,BLS Data
+17-3024.00,17-3024,17-3020,Electro-Mechanical and Mechatronics Technologists and Technicians,Associate's degree,BLS Data
+17-3024.01,17-3024,17-3020,Robotics Technicians,Associate's degree,BLS Data
+17-3025.00,17-3025,17-3020,Environmental Engineering Technologists and Technicians,Associate's degree,BLS Data
+17-3026.00,17-3026,17-3020,Industrial Engineering Technologists and Technicians,Associate's degree,BLS Data
+17-3026.01,17-3026,17-3020,Nanotechnology Engineering Technologists and Technicians,Associate's degree,BLS Data
+17-3027.00,17-3027,17-3020,Mechanical Engineering Technologists and Technicians,Associate's degree,BLS Data
+17-3027.01,17-3027,17-3020,Automotive Engineering Technicians,Associate's degree,BLS Data
+17-3028.00,17-3028,17-3020,Calibration Technologists and Technicians,Associate's degree,BLS Data
+17-3029.00,17-3029,17-3020,"Engineering Technologists and Technicians, Except Drafters, All Other",Associate's degree,BLS Data
+17-3029.01,17-3029,17-3020,Non-Destructive Testing Specialists,Associate's degree,BLS Data
+17-3029.08,17-3029,17-3020,Photonics Technicians,Associate's degree,BLS Data
+17-3031.00,17-3031,17-3030,Surveying and Mapping Technicians,High school diploma or equivalent,BLS Data
+19-1011.00,19-1011,19-1010,Animal Scientists,Bachelor's degree,BLS Data
+19-1012.00,19-1012,19-1010,Food Scientists and Technologists,Bachelor's degree,BLS Data
+19-1013.00,19-1013,19-1010,Soil and Plant Scientists,Bachelor's degree,BLS Data
+19-1021.00,19-1021,19-1020,Biochemists and Biophysicists,Doctoral or professional degree,BLS Data
+19-1022.00,19-1022,19-1020,Microbiologists,Bachelor's degree,BLS Data
+19-1023.00,19-1023,19-1020,Zoologists and Wildlife Biologists,Bachelor's degree,BLS Data
+19-1029.00,19-1029,19-1020,"Biological Scientists, All Other",Bachelor's degree,BLS Data
+19-1029.01,19-1029,19-1020,Bioinformatics Scientists,Bachelor's degree,BLS Data
+19-1029.02,19-1029,19-1020,Molecular and Cellular Biologists,Bachelor's degree,BLS Data
+19-1029.03,19-1029,19-1020,Geneticists,Bachelor's degree,BLS Data
+19-1029.04,19-1029,19-1020,Biologists,Bachelor's degree,BLS Data
+19-1031.00,19-1031,19-1030,Conservation Scientists,Bachelor's degree,BLS Data
+19-1031.02,19-1031,19-1030,Range Managers,Bachelor's degree,BLS Data
+19-1031.03,19-1031,19-1030,Park Naturalists,Bachelor's degree,BLS Data
+19-1032.00,19-1032,19-1030,Foresters,Bachelor's degree,BLS Data
+19-1041.00,19-1041,19-1040,Epidemiologists,Master's degree,BLS Data
+19-1042.00,19-1042,19-1040,"Medical Scientists, Except Epidemiologists",Doctoral or professional degree,BLS Data
+19-1099.00,19-1099,19-1090,"Life Scientists, All Other",Bachelor's degree,BLS Data
+19-2011.00,19-2011,19-2010,Astronomers,Doctoral or professional degree,BLS Data
+19-2012.00,19-2012,19-2010,Physicists,Doctoral or professional degree,BLS Data
+19-2021.00,19-2021,19-2020,Atmospheric and Space Scientists,Bachelor's degree,BLS Data
+19-2031.00,19-2031,19-2030,Chemists,Bachelor's degree,BLS Data
+19-2032.00,19-2032,19-2030,Materials Scientists,Bachelor's degree,BLS Data
+19-2041.00,19-2041,19-2040,"Environmental Scientists and Specialists, Including Health",Bachelor's degree,BLS Data
+19-2041.01,19-2041,19-2040,Climate Change Policy Analysts,Bachelor's degree,BLS Data
+19-2041.02,19-2041,19-2040,Environmental Restoration Planners,Bachelor's degree,BLS Data
+19-2041.03,19-2041,19-2040,Industrial Ecologists,Bachelor's degree,BLS Data
+19-2042.00,19-2042,19-2040,"Geoscientists, Except Hydrologists and Geographers",Bachelor's degree,BLS Data
+19-2043.00,19-2043,19-2040,Hydrologists,Bachelor's degree,BLS Data
+19-2099.00,19-2099,19-2090,"Physical Scientists, All Other",Bachelor's degree,BLS Data
+19-2099.01,19-2099,19-2090,Remote Sensing Scientists and Technologists,Bachelor's degree,BLS Data
+19-3011.00,19-3011,19-3010,Economists,Master's degree,BLS Data
+19-3011.01,19-3011,19-3010,Environmental Economists,Master's degree,BLS Data
+19-3022.00,19-3022,19-3020,Survey Researchers,Master's degree,BLS Data
+19-3032.00,19-3032,19-3030,Industrial-Organizational Psychologists,Master's degree,BLS Data
+19-3033.00,19-3033,19-3030,Clinical and Counseling Psychologists,Doctoral or professional degree,BLS Data
+19-3034.00,19-3034,19-3030,School Psychologists,Master's degree,BLS Data
+19-3039.00,19-3039,19-3030,"Psychologists, All Other",Master's degree,BLS Data
+19-3039.02,19-3039,19-3030,Neuropsychologists,Master's degree,BLS Data
+19-3039.03,19-3039,19-3030,Clinical Neuropsychologists,Master's degree,BLS Data
+19-3041.00,19-3041,19-3040,Sociologists,Master's degree,BLS Data
+19-3051.00,19-3051,19-3050,Urban and Regional Planners,Master's degree,BLS Data
+19-3091.00,19-3091,19-3090,Anthropologists and Archeologists,Master's degree,BLS Data
+19-3092.00,19-3092,19-3090,Geographers,Bachelor's degree,BLS Data
+19-3093.00,19-3093,19-3090,Historians,Master's degree,BLS Data
+19-3094.00,19-3094,19-3090,Political Scientists,Master's degree,BLS Data
+19-3099.00,19-3099,19-3090,"Social Scientists and Related Workers, All Other",Bachelor's degree,BLS Data
+19-3099.01,19-3099,19-3090,Transportation Planners,Bachelor's degree,BLS Data
+19-4012.00,19-4012,19-4010,Agricultural Technicians,Associate's degree,BLS Data
+19-4012.01,19-4012,19-4010,Precision Agriculture Technicians,Associate's degree,BLS Data
+19-4013.00,19-4013,19-4010,Food Science Technicians,Associate's degree,BLS Data
+19-4021.00,19-4021,19-4020,Biological Technicians,Bachelor's degree,BLS Data
+19-4031.00,19-4031,19-4030,Chemical Technicians,Associate's degree,BLS Data
+19-4042.00,19-4042,19-4040,"Environmental Science and Protection Technicians, Including Health",Associate's degree,BLS Data
+19-4043.00,19-4043,19-4040,"Geological Technicians, Except Hydrologic Technicians",Associate's degree,BLS Data
+19-4044.00,19-4044,19-4040,Hydrologic Technicians,Associate's degree,BLS Data
+19-4051.00,19-4051,19-4050,Nuclear Technicians,Associate's degree,BLS Data
+19-4051.02,19-4051,19-4050,Nuclear Monitoring Technicians,Associate's degree,BLS Data
+19-4061.00,19-4061,19-4060,Social Science Research Assistants,Bachelor's degree,BLS Data
+19-4071.00,19-4071,19-4070,Forest and Conservation Technicians,Associate's degree,BLS Data
+19-4092.00,19-4092,19-4090,Forensic Science Technicians,Bachelor's degree,BLS Data
+19-4099.00,19-4099,19-4090,"Life, Physical, and Social Science Technicians, All Other",Associate's degree,BLS Data
+19-4099.01,19-4099,19-4090,Quality Control Analysts,Associate's degree,BLS Data
+19-4099.03,19-4099,19-4090,Remote Sensing Technicians,Associate's degree,BLS Data
+19-5011.00,19-5011,19-5010,Occupational Health and Safety Specialists,Bachelor's degree,BLS Data
+19-5012.00,19-5012,19-5010,Occupational Health and Safety Technicians,High school diploma or equivalent,BLS Data
+21-1011.00,21-1011,21-1010,Substance Abuse and Behavioral Disorder Counselors,Bachelor's degree,SOC Broad Occupation Group
+21-1012.00,21-1012,21-1010,"Educational, Guidance, and Career Counselors and Advisors",Master's degree,BLS Data
+21-1013.00,21-1013,21-1010,Marriage and Family Therapists,Master's degree,BLS Data
+21-1014.00,21-1014,21-1010,Mental Health Counselors,Bachelor's degree,SOC Broad Occupation Group
+21-1015.00,21-1015,21-1010,Rehabilitation Counselors,Master's degree,BLS Data
+21-1019.00,21-1019,21-1010,"Counselors, All Other",Master's degree,BLS Data
+21-1021.00,21-1021,21-1020,"Child, Family, and School Social Workers",Bachelor's degree,BLS Data
+21-1022.00,21-1022,21-1020,Healthcare Social Workers,Master's degree,BLS Data
+21-1023.00,21-1023,21-1020,Mental Health and Substance Abuse Social Workers,Master's degree,BLS Data
+21-1029.00,21-1029,21-1020,"Social Workers, All Other",Bachelor's degree,BLS Data
+21-1091.00,21-1091,21-1090,Health Education Specialists,Bachelor's degree,BLS Data
+21-1092.00,21-1092,21-1090,Probation Officers and Correctional Treatment Specialists,Bachelor's degree,BLS Data
+21-1093.00,21-1093,21-1090,Social and Human Service Assistants,High school diploma or equivalent,BLS Data
+21-1094.00,21-1094,21-1090,Community Health Workers,High school diploma or equivalent,BLS Data
+21-1099.00,21-1099,21-1090,"Community and Social Service Specialists, All Other",Bachelor's degree,BLS Data
+21-2011.00,21-2011,21-2010,Clergy,Bachelor's degree,BLS Data
+21-2021.00,21-2021,21-2020,"Directors, Religious Activities and Education",Bachelor's degree,BLS Data
+21-2099.00,21-2099,21-2090,"Religious Workers, All Other",Bachelor's degree,BLS Data
+23-1011.00,23-1011,23-1010,Lawyers,Doctoral or professional degree,BLS Data
+23-1012.00,23-1012,23-1010,Judicial Law Clerks,Doctoral or professional degree,BLS Data
+23-1021.00,23-1021,23-1020,"Administrative Law Judges, Adjudicators, and Hearing Officers",Doctoral or professional degree,BLS Data
+23-1022.00,23-1022,23-1020,"Arbitrators, Mediators, and Conciliators",Bachelor's degree,BLS Data
+23-1023.00,23-1023,23-1020,"Judges, Magistrate Judges, and Magistrates",Doctoral or professional degree,BLS Data
+23-2011.00,23-2011,23-2010,Paralegals and Legal Assistants,Associate's degree,BLS Data
+23-2093.00,23-2093,23-2090,"Title Examiners, Abstractors, and Searchers",High school diploma or equivalent,BLS Data
+23-2099.00,23-2099,23-2090,"Legal Support Workers, All Other",Associate's degree,BLS Data
+25-1011.00,25-1011,25-1010,"Business Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1021.00,25-1021,25-1020,"Computer Science Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1022.00,25-1022,25-1020,"Mathematical Science Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1031.00,25-1031,25-1030,"Architecture Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1032.00,25-1032,25-1030,"Engineering Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1041.00,25-1041,25-1040,"Agricultural Sciences Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1042.00,25-1042,25-1040,"Biological Science Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1043.00,25-1043,25-1040,"Forestry and Conservation Science Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1051.00,25-1051,25-1050,"Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1052.00,25-1052,25-1050,"Chemistry Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1053.00,25-1053,25-1050,"Environmental Science Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1054.00,25-1054,25-1050,"Physics Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1061.00,25-1061,25-1060,"Anthropology and Archeology Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1062.00,25-1062,25-1060,"Area, Ethnic, and Cultural Studies Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1063.00,25-1063,25-1060,"Economics Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1064.00,25-1064,25-1060,"Geography Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1065.00,25-1065,25-1060,"Political Science Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1066.00,25-1066,25-1060,"Psychology Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1067.00,25-1067,25-1060,"Sociology Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1069.00,25-1069,25-1060,"Social Sciences Teachers, Postsecondary, All Other",Doctoral or professional degree,BLS Data
+25-1071.00,25-1071,25-1070,"Health Specialties Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1072.00,25-1072,25-1070,"Nursing Instructors and Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1081.00,25-1081,25-1080,"Education Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1082.00,25-1082,25-1080,"Library Science Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1111.00,25-1111,25-1110,"Criminal Justice and Law Enforcement Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1112.00,25-1112,25-1110,"Law Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1113.00,25-1113,25-1110,"Social Work Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1121.00,25-1121,25-1120,"Art, Drama, and Music Teachers, Postsecondary",Master's degree,BLS Data
+25-1122.00,25-1122,25-1120,"Communications Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1123.00,25-1123,25-1120,"English Language and Literature Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1124.00,25-1124,25-1120,"Foreign Language and Literature Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1125.00,25-1125,25-1120,"History Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1126.00,25-1126,25-1120,"Philosophy and Religion Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1192.00,25-1192,25-1190,"Family and Consumer Sciences Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1193.00,25-1193,25-1190,"Recreation and Fitness Studies Teachers, Postsecondary",Doctoral or professional degree,BLS Data
+25-1194.00,25-1194,25-1190,"Career/Technical Education Teachers, Postsecondary",Bachelor's degree,BLS Data
+25-1199.00,25-1199,25-1190,"Postsecondary Teachers, All Other",Doctoral or professional degree,BLS Data
+25-2011.00,25-2011,25-2010,"Preschool Teachers, Except Special Education",Associate's degree,BLS Data
+25-2012.00,25-2012,25-2010,"Kindergarten Teachers, Except Special Education",Bachelor's degree,BLS Data
+25-2021.00,25-2021,25-2020,"Elementary School Teachers, Except Special Education",Bachelor's degree,BLS Data
+25-2022.00,25-2022,25-2020,"Middle School Teachers, Except Special and Career/Technical Education",Bachelor's degree,BLS Data
+25-2023.00,25-2023,25-2020,"Career/Technical Education Teachers, Middle School",Bachelor's degree,BLS Data
+25-2031.00,25-2031,25-2030,"Secondary School Teachers, Except Special and Career/Technical Education",Bachelor's degree,BLS Data
+25-2032.00,25-2032,25-2030,"Career/Technical Education Teachers, Secondary School",Bachelor's degree,BLS Data
+25-2051.00,25-2051,25-2050,"Special Education Teachers, Preschool",Bachelor's degree,BLS Data
+25-2055.00,25-2055,25-2050,"Special Education Teachers, Kindergarten",Bachelor's degree,SOC Broad Occupation Group
+25-2056.00,25-2056,25-2050,"Special Education Teachers, Elementary School",Bachelor's degree,SOC Broad Occupation Group
+25-2057.00,25-2057,25-2050,"Special Education Teachers, Middle School",Bachelor's degree,BLS Data
+25-2058.00,25-2058,25-2050,"Special Education Teachers, Secondary School",Bachelor's degree,BLS Data
+25-2059.00,25-2059,25-2050,"Special Education Teachers, All Other",Bachelor's degree,BLS Data
+25-2059.01,25-2059,25-2050,Adapted Physical Education Specialists,Bachelor's degree,BLS Data
+25-3011.00,25-3011,25-3010,"Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors",Bachelor's degree,BLS Data
+25-3021.00,25-3021,25-3020,Self-Enrichment Teachers,High school diploma or equivalent,BLS Data
+25-3031.00,25-3031,25-3030,"Substitute Teachers, Short-Term",Bachelor's degree,BLS Data
+25-3041.00,25-3041,25-3040,Tutors,High school diploma or equivalent,BLS Data
+25-3099.00,25-3099,25-3090,"Teachers and Instructors, All Other",Bachelor's degree,BLS Data
+25-4011.00,25-4011,25-4010,Archivists,Master's degree,BLS Data
+25-4012.00,25-4012,25-4010,Curators,Master's degree,BLS Data
+25-4013.00,25-4013,25-4010,Museum Technicians and Conservators,Bachelor's degree,BLS Data
+25-4022.00,25-4022,25-4020,Librarians and Media Collections Specialists,Master's degree,BLS Data
+25-4031.00,25-4031,25-4030,Library Technicians,High school diploma or equivalent,BLS Data
+25-9021.00,25-9021,25-9020,Farm and Home Management Educators,Master's degree,BLS Data
+25-9031.00,25-9031,25-9030,Instructional Coordinators,Master's degree,BLS Data
+25-9042.00,25-9042,25-9040,"Teaching Assistants, Preschool, Elementary, Middle, and Secondary School, Except Special Education",High school diploma or equivalent,SOC Broad Occupation Group
+25-9043.00,25-9043,25-9040,"Teaching Assistants, Special Education",High school diploma or equivalent,SOC Broad Occupation Group
+25-9044.00,25-9044,25-9040,"Teaching Assistants, Postsecondary",Bachelor's degree,BLS Data
+25-9049.00,25-9049,25-9040,"Teaching Assistants, All Other",High school diploma or equivalent,SOC Broad Occupation Group
+25-9099.00,25-9099,25-9090,"Educational Instruction and Library Workers, All Other",Bachelor's degree,BLS Data
+27-1011.00,27-1011,27-1010,Art Directors,Bachelor's degree,BLS Data
+27-1012.00,27-1012,27-1010,Craft Artists,None,BLS Data
+27-1013.00,27-1013,27-1010,"Fine Artists, Including Painters, Sculptors, and Illustrators",Bachelor's degree,BLS Data
+27-1014.00,27-1014,27-1010,Special Effects Artists and Animators,Bachelor's degree,BLS Data
+27-1019.00,27-1019,27-1010,"Artists and Related Workers, All Other",None,BLS Data
+27-1021.00,27-1021,27-1020,Commercial and Industrial Designers,Bachelor's degree,BLS Data
+27-1022.00,27-1022,27-1020,Fashion Designers,Bachelor's degree,BLS Data
+27-1023.00,27-1023,27-1020,Floral Designers,High school diploma or equivalent,BLS Data
+27-1024.00,27-1024,27-1020,Graphic Designers,Bachelor's degree,BLS Data
+27-1025.00,27-1025,27-1020,Interior Designers,Bachelor's degree,BLS Data
+27-1026.00,27-1026,27-1020,Merchandise Displayers and Window Trimmers,High school diploma or equivalent,BLS Data
+27-1027.00,27-1027,27-1020,Set and Exhibit Designers,Bachelor's degree,BLS Data
+27-1029.00,27-1029,27-1020,"Designers, All Other",Bachelor's degree,BLS Data
+27-2011.00,27-2011,27-2010,Actors,High school diploma or equivalent,BLS Data
+27-2012.00,27-2012,27-2010,Producers and Directors,Bachelor's degree,BLS Data
+27-2012.03,27-2012,27-2010,Media Programming Directors,Bachelor's degree,BLS Data
+27-2012.04,27-2012,27-2010,Talent Directors,Bachelor's degree,BLS Data
+27-2012.05,27-2012,27-2010,Media Technical Directors/Managers,Bachelor's degree,BLS Data
+27-2021.00,27-2021,27-2020,Athletes and Sports Competitors,None,BLS Data
+27-2022.00,27-2022,27-2020,Coaches and Scouts,Bachelor's degree,BLS Data
+27-2023.00,27-2023,27-2020,"Umpires, Referees, and Other Sports Officials",High school diploma or equivalent,BLS Data
+27-2031.00,27-2031,27-2030,Dancers,None,BLS Data
+27-2032.00,27-2032,27-2030,Choreographers,High school diploma or equivalent,BLS Data
+27-2041.00,27-2041,27-2040,Music Directors and Composers,Bachelor's degree,BLS Data
+27-2042.00,27-2042,27-2040,Musicians and Singers,None,BLS Data
+27-2091.00,27-2091,27-2090,"Disc Jockeys, Except Radio",High school diploma or equivalent,BLS Data
+27-2099.00,27-2099,27-2090,"Entertainers and Performers, Sports and Related Workers, All Other",None,BLS Data
+27-3011.00,27-3011,27-3010,Broadcast Announcers and Radio Disc Jockeys,Bachelor's degree,BLS Data
+27-3023.00,27-3023,27-3020,"News Analysts, Reporters, and Journalists",Bachelor's degree,BLS Data
+27-3031.00,27-3031,27-3030,Public Relations Specialists,Bachelor's degree,BLS Data
+27-3041.00,27-3041,27-3040,Editors,Bachelor's degree,BLS Data
+27-3042.00,27-3042,27-3040,Technical Writers,Bachelor's degree,BLS Data
+27-3043.00,27-3043,27-3040,Writers and Authors,Bachelor's degree,BLS Data
+27-3043.05,27-3043,27-3040,"Poets, Lyricists and Creative Writers",Bachelor's degree,BLS Data
+27-3091.00,27-3091,27-3090,Interpreters and Translators,Bachelor's degree,BLS Data
+27-3092.00,27-3092,27-3090,Court Reporters and Simultaneous Captioners,High school diploma or equivalent,BLS Data
+27-3099.00,27-3099,27-3090,"Media and Communication Workers, All Other",High school diploma or equivalent,BLS Data
+27-4011.00,27-4011,27-4010,Audio and Video Technicians,High school diploma or equivalent,BLS Data
+27-4012.00,27-4012,27-4010,Broadcast Technicians,Associate's degree,BLS Data
+27-4014.00,27-4014,27-4010,Sound Engineering Technicians,High school diploma or equivalent,BLS Data
+27-4015.00,27-4015,27-4010,Lighting Technicians,High school diploma or equivalent,BLS Data
+27-4021.00,27-4021,27-4020,Photographers,High school diploma or equivalent,BLS Data
+27-4031.00,27-4031,27-4030,"Camera Operators, Television, Video, and Film",Bachelor's degree,BLS Data
+27-4032.00,27-4032,27-4030,Film and Video Editors,Bachelor's degree,BLS Data
+27-4099.00,27-4099,27-4090,"Media and Communication Equipment Workers, All Other",High school diploma or equivalent,BLS Data
+29-1011.00,29-1011,29-1010,Chiropractors,Doctoral or professional degree,BLS Data
+29-1021.00,29-1021,29-1020,"Dentists, General",Doctoral or professional degree,BLS Data
+29-1022.00,29-1022,29-1020,Oral and Maxillofacial Surgeons,Doctoral or professional degree,BLS Data
+29-1023.00,29-1023,29-1020,Orthodontists,Doctoral or professional degree,BLS Data
+29-1024.00,29-1024,29-1020,Prosthodontists,Doctoral or professional degree,BLS Data
+29-1029.00,29-1029,29-1020,"Dentists, All Other Specialists",Doctoral or professional degree,BLS Data
+29-1031.00,29-1031,29-1030,Dietitians and Nutritionists,Bachelor's degree,BLS Data
+29-1041.00,29-1041,29-1040,Optometrists,Doctoral or professional degree,BLS Data
+29-1051.00,29-1051,29-1050,Pharmacists,Doctoral or professional degree,BLS Data
+29-1071.00,29-1071,29-1070,Physician Assistants,Master's degree,BLS Data
+29-1071.01,29-1071,29-1070,Anesthesiologist Assistants,Master's degree,BLS Data
+29-1081.00,29-1081,29-1080,Podiatrists,Doctoral or professional degree,BLS Data
+29-1122.00,29-1122,29-1120,Occupational Therapists,Master's degree,BLS Data
+29-1122.01,29-1122,29-1120,"Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists",Master's degree,BLS Data
+29-1123.00,29-1123,29-1120,Physical Therapists,Doctoral or professional degree,BLS Data
+29-1124.00,29-1124,29-1120,Radiation Therapists,Associate's degree,BLS Data
+29-1125.00,29-1125,29-1120,Recreational Therapists,Bachelor's degree,BLS Data
+29-1126.00,29-1126,29-1120,Respiratory Therapists,Associate's degree,BLS Data
+29-1127.00,29-1127,29-1120,Speech-Language Pathologists,Master's degree,BLS Data
+29-1128.00,29-1128,29-1120,Exercise Physiologists,Bachelor's degree,BLS Data
+29-1129.00,29-1129,29-1120,"Therapists, All Other",Bachelor's degree,BLS Data
+29-1129.01,29-1129,29-1120,Art Therapists,Bachelor's degree,BLS Data
+29-1129.02,29-1129,29-1120,Music Therapists,Bachelor's degree,BLS Data
+29-1131.00,29-1131,29-1130,Veterinarians,Doctoral or professional degree,BLS Data
+29-1141.00,29-1141,29-1140,Registered Nurses,Bachelor's degree,BLS Data
+29-1141.01,29-1141,29-1140,Acute Care Nurses,Bachelor's degree,BLS Data
+29-1141.02,29-1141,29-1140,Advanced Practice Psychiatric Nurses,Bachelor's degree,BLS Data
+29-1141.03,29-1141,29-1140,Critical Care Nurses,Bachelor's degree,BLS Data
+29-1141.04,29-1141,29-1140,Clinical Nurse Specialists,Bachelor's degree,BLS Data
+29-1151.00,29-1151,29-1150,Nurse Anesthetists,Master's degree,BLS Data
+29-1161.00,29-1161,29-1160,Nurse Midwives,Master's degree,BLS Data
+29-1171.00,29-1171,29-1170,Nurse Practitioners,Master's degree,BLS Data
+29-1181.00,29-1181,29-1180,Audiologists,Doctoral or professional degree,BLS Data
+29-1211.00,29-1211,29-1210,Anesthesiologists,Doctoral or professional degree,BLS Data
+29-1212.00,29-1212,29-1210,Cardiologists,Doctoral or professional degree,BLS Data
+29-1213.00,29-1213,29-1210,Dermatologists,Doctoral or professional degree,BLS Data
+29-1214.00,29-1214,29-1210,Emergency Medicine Physicians,Doctoral or professional degree,BLS Data
+29-1215.00,29-1215,29-1210,Family Medicine Physicians,Doctoral or professional degree,BLS Data
+29-1216.00,29-1216,29-1210,General Internal Medicine Physicians,Doctoral or professional degree,BLS Data
+29-1217.00,29-1217,29-1210,Neurologists,Doctoral or professional degree,BLS Data
+29-1218.00,29-1218,29-1210,Obstetricians and Gynecologists,Doctoral or professional degree,BLS Data
+29-1221.00,29-1221,29-1220,"Pediatricians, General",Doctoral or professional degree,BLS Data
+29-1222.00,29-1222,29-1220,"Physicians, Pathologists",Doctoral or professional degree,BLS Data
+29-1223.00,29-1223,29-1220,Psychiatrists,Doctoral or professional degree,BLS Data
+29-1224.00,29-1224,29-1220,Radiologists,Doctoral or professional degree,BLS Data
+29-1229.00,29-1229,29-1220,"Physicians, All Other",Doctoral or professional degree,BLS Data
+29-1229.01,29-1229,29-1220,Allergists and Immunologists,Doctoral or professional degree,BLS Data
+29-1229.02,29-1229,29-1220,Hospitalists,Doctoral or professional degree,BLS Data
+29-1229.03,29-1229,29-1220,Urologists,Doctoral or professional degree,BLS Data
+29-1229.04,29-1229,29-1220,Physical Medicine and Rehabilitation Physicians,Doctoral or professional degree,BLS Data
+29-1229.05,29-1229,29-1220,Preventive Medicine Physicians,Doctoral or professional degree,BLS Data
+29-1229.06,29-1229,29-1220,Sports Medicine Physicians,Doctoral or professional degree,BLS Data
+29-1241.00,29-1241,29-1240,"Ophthalmologists, Except Pediatric",Doctoral or professional degree,BLS Data
+29-1242.00,29-1242,29-1240,"Orthopedic Surgeons, Except Pediatric",Doctoral or professional degree,BLS Data
+29-1243.00,29-1243,29-1240,Pediatric Surgeons,Doctoral or professional degree,BLS Data
+29-1249.00,29-1249,29-1240,"Surgeons, All Other",Doctoral or professional degree,BLS Data
+29-1291.00,29-1291,29-1290,Acupuncturists,Master's degree,BLS Data
+29-1292.00,29-1292,29-1290,Dental Hygienists,Associate's degree,BLS Data
+29-1299.00,29-1299,29-1290,"Healthcare Diagnosing or Treating Practitioners, All Other",Master's degree,BLS Data
+29-1299.01,29-1299,29-1290,Naturopathic Physicians,Master's degree,BLS Data
+29-1299.02,29-1299,29-1290,Orthoptists,Master's degree,BLS Data
+29-2011.00,29-2011,29-2010,Medical and Clinical Laboratory Technologists,Bachelor's degree,SOC Broad Occupation Group
+29-2011.01,29-2011,29-2010,Cytogenetic Technologists,Bachelor's degree,SOC Broad Occupation Group
+29-2011.02,29-2011,29-2010,Cytotechnologists,Bachelor's degree,SOC Broad Occupation Group
+29-2011.04,29-2011,29-2010,Histotechnologists,Bachelor's degree,SOC Broad Occupation Group
+29-2012.00,29-2012,29-2010,Medical and Clinical Laboratory Technicians,Bachelor's degree,SOC Broad Occupation Group
+29-2012.01,29-2012,29-2010,Histology Technicians,Bachelor's degree,SOC Broad Occupation Group
+29-2031.00,29-2031,29-2030,Cardiovascular Technologists and Technicians,Associate's degree,BLS Data
+29-2032.00,29-2032,29-2030,Diagnostic Medical Sonographers,Associate's degree,BLS Data
+29-2033.00,29-2033,29-2030,Nuclear Medicine Technologists,Associate's degree,BLS Data
+29-2034.00,29-2034,29-2030,Radiologic Technologists and Technicians,Associate's degree,BLS Data
+29-2035.00,29-2035,29-2030,Magnetic Resonance Imaging Technologists,Associate's degree,BLS Data
+29-2036.00,29-2036,29-2030,Medical Dosimetrists,Bachelor's degree,BLS Data
+29-2042.00,29-2042,29-2040,Emergency Medical Technicians,High school diploma or equivalent,BLS Data
+29-2043.00,29-2043,29-2040,Paramedics,High school diploma or equivalent,BLS Data
+29-2051.00,29-2051,29-2050,Dietetic Technicians,Associate's degree,BLS Data
+29-2052.00,29-2052,29-2050,Pharmacy Technicians,High school diploma or equivalent,BLS Data
+29-2053.00,29-2053,29-2050,Psychiatric Technicians,High school diploma or equivalent,BLS Data
+29-2055.00,29-2055,29-2050,Surgical Technologists,High school diploma or equivalent,BLS Data
+29-2056.00,29-2056,29-2050,Veterinary Technologists and Technicians,Associate's degree,BLS Data
+29-2057.00,29-2057,29-2050,Ophthalmic Medical Technicians,High school diploma or equivalent,BLS Data
+29-2061.00,29-2061,29-2060,Licensed Practical and Licensed Vocational Nurses,High school diploma or equivalent,BLS Data
+29-2072.00,29-2072,29-2070,Medical Records Specialists,High school diploma or equivalent,BLS Data
+29-2081.00,29-2081,29-2080,"Opticians, Dispensing",High school diploma or equivalent,BLS Data
+29-2091.00,29-2091,29-2090,Orthotists and Prosthetists,Master's degree,BLS Data
+29-2092.00,29-2092,29-2090,Hearing Aid Specialists,High school diploma or equivalent,BLS Data
+29-2099.00,29-2099,29-2090,"Health Technologists and Technicians, All Other",High school diploma or equivalent,BLS Data
+29-2099.01,29-2099,29-2090,Neurodiagnostic Technologists,High school diploma or equivalent,BLS Data
+29-2099.05,29-2099,29-2090,Ophthalmic Medical Technologists,High school diploma or equivalent,BLS Data
+29-2099.08,29-2099,29-2090,Patient Representatives,High school diploma or equivalent,BLS Data
+29-9021.00,29-9021,29-9020,Health Information Technologists and Medical Registrars,Associate's degree,BLS Data
+29-9091.00,29-9091,29-9090,Athletic Trainers,Master's degree,BLS Data
+29-9092.00,29-9092,29-9090,Genetic Counselors,Master's degree,BLS Data
+29-9093.00,29-9093,29-9090,Surgical Assistants,High school diploma or equivalent,BLS Data
+29-9099.00,29-9099,29-9090,"Healthcare Practitioners and Technical Workers, All Other",High school diploma or equivalent,BLS Data
+29-9099.01,29-9099,29-9090,Midwives,High school diploma or equivalent,BLS Data
+31-1121.00,31-1121,31-1120,Home Health Aides,High school diploma or equivalent,SOC Broad Occupation Group
+31-1122.00,31-1122,31-1120,Personal Care Aides,High school diploma or equivalent,SOC Broad Occupation Group
+31-1131.00,31-1131,31-1130,Nursing Assistants,High school diploma or equivalent,BLS Data
+31-1132.00,31-1132,31-1130,Orderlies,High school diploma or equivalent,BLS Data
+31-1133.00,31-1133,31-1130,Psychiatric Aides,High school diploma or equivalent,BLS Data
+31-2011.00,31-2011,31-2010,Occupational Therapy Assistants,Associate's degree,BLS Data
+31-2012.00,31-2012,31-2010,Occupational Therapy Aides,High school diploma or equivalent,BLS Data
+31-2021.00,31-2021,31-2020,Physical Therapist Assistants,Associate's degree,BLS Data
+31-2022.00,31-2022,31-2020,Physical Therapist Aides,High school diploma or equivalent,BLS Data
+31-9011.00,31-9011,31-9010,Massage Therapists,High school diploma or equivalent,BLS Data
+31-9091.00,31-9091,31-9090,Dental Assistants,High school diploma or equivalent,BLS Data
+31-9092.00,31-9092,31-9090,Medical Assistants,High school diploma or equivalent,BLS Data
+31-9093.00,31-9093,31-9090,Medical Equipment Preparers,High school diploma or equivalent,BLS Data
+31-9094.00,31-9094,31-9090,Medical Transcriptionists,High school diploma or equivalent,BLS Data
+31-9095.00,31-9095,31-9090,Pharmacy Aides,High school diploma or equivalent,BLS Data
+31-9096.00,31-9096,31-9090,Veterinary Assistants and Laboratory Animal Caretakers,High school diploma or equivalent,BLS Data
+31-9097.00,31-9097,31-9090,Phlebotomists,High school diploma or equivalent,BLS Data
+31-9099.00,31-9099,31-9090,"Healthcare Support Workers, All Other",High school diploma or equivalent,BLS Data
+31-9099.01,31-9099,31-9090,Speech-Language Pathology Assistants,High school diploma or equivalent,BLS Data
+31-9099.02,31-9099,31-9090,Endoscopy Technicians,High school diploma or equivalent,BLS Data
+33-1011.00,33-1011,33-1010,First-Line Supervisors of Correctional Officers,High school diploma or equivalent,BLS Data
+33-1012.00,33-1012,33-1010,First-Line Supervisors of Police and Detectives,High school diploma or equivalent,BLS Data
+33-1021.00,33-1021,33-1020,First-Line Supervisors of Firefighting and Prevention Workers,High school diploma or equivalent,BLS Data
+33-1091.00,33-1091,33-1090,First-Line Supervisors of Security Workers,High school diploma or equivalent,BLS Data
+33-1099.00,33-1099,33-1090,"First-Line Supervisors of Protective Service Workers, All Other",High school diploma or equivalent,BLS Data
+33-2011.00,33-2011,33-2010,Firefighters,High school diploma or equivalent,BLS Data
+33-2021.00,33-2021,33-2020,Fire Inspectors and Investigators,High school diploma or equivalent,BLS Data
+33-2022.00,33-2022,33-2020,Forest Fire Inspectors and Prevention Specialists,High school diploma or equivalent,BLS Data
+33-3011.00,33-3011,33-3010,Bailiffs,High school diploma or equivalent,BLS Data
+33-3012.00,33-3012,33-3010,Correctional Officers and Jailers,High school diploma or equivalent,BLS Data
+33-3021.00,33-3021,33-3020,Detectives and Criminal Investigators,High school diploma or equivalent,BLS Data
+33-3021.02,33-3021,33-3020,Police Identification and Records Officers,High school diploma or equivalent,BLS Data
+33-3021.06,33-3021,33-3020,Intelligence Analysts,High school diploma or equivalent,BLS Data
+33-3031.00,33-3031,33-3030,Fish and Game Wardens,Bachelor's degree,BLS Data
+33-3041.00,33-3041,33-3040,Parking Enforcement Workers,High school diploma or equivalent,BLS Data
+33-3051.00,33-3051,33-3050,Police and Sheriff's Patrol Officers,High school diploma or equivalent,BLS Data
+33-3051.04,33-3051,33-3050,Customs and Border Protection Officers,High school diploma or equivalent,BLS Data
+33-3052.00,33-3052,33-3050,Transit and Railroad Police,High school diploma or equivalent,BLS Data
+33-9011.00,33-9011,33-9010,Animal Control Workers,High school diploma or equivalent,BLS Data
+33-9021.00,33-9021,33-9020,Private Detectives and Investigators,High school diploma or equivalent,BLS Data
+33-9031.00,33-9031,33-9030,Gambling Surveillance Officers and Gambling Investigators,High school diploma or equivalent,BLS Data
+33-9032.00,33-9032,33-9030,Security Guards,High school diploma or equivalent,BLS Data
+33-9091.00,33-9091,33-9090,Crossing Guards and Flaggers,None,BLS Data
+33-9092.00,33-9092,33-9090,"Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers",None,BLS Data
+33-9093.00,33-9093,33-9090,Transportation Security Screeners,High school diploma or equivalent,BLS Data
+33-9094.00,33-9094,33-9090,School Bus Monitors,High school diploma or equivalent,BLS Data
+33-9099.00,33-9099,33-9090,"Protective Service Workers, All Other",High school diploma or equivalent,BLS Data
+33-9099.02,33-9099,33-9090,Retail Loss Prevention Specialists,High school diploma or equivalent,BLS Data
+35-1011.00,35-1011,35-1010,Chefs and Head Cooks,High school diploma or equivalent,BLS Data
+35-1012.00,35-1012,35-1010,First-Line Supervisors of Food Preparation and Serving Workers,High school diploma or equivalent,BLS Data
+35-2011.00,35-2011,35-2010,"Cooks, Fast Food",None,BLS Data
+35-2012.00,35-2012,35-2010,"Cooks, Institution and Cafeteria",None,BLS Data
+35-2013.00,35-2013,35-2010,"Cooks, Private Household",High school diploma or equivalent,BLS Data
+35-2014.00,35-2014,35-2010,"Cooks, Restaurant",None,BLS Data
+35-2015.00,35-2015,35-2010,"Cooks, Short Order",None,BLS Data
+35-2019.00,35-2019,35-2010,"Cooks, All Other",None,BLS Data
+35-2021.00,35-2021,35-2020,Food Preparation Workers,None,BLS Data
+35-3011.00,35-3011,35-3010,Bartenders,None,BLS Data
+35-3023.00,35-3023,35-3020,Fast Food and Counter Workers,None,BLS Data
+35-3023.01,35-3023,35-3020,Baristas,None,BLS Data
+35-3031.00,35-3031,35-3030,Waiters and Waitresses,None,BLS Data
+35-3041.00,35-3041,35-3040,"Food Servers, Nonrestaurant",None,BLS Data
+35-9011.00,35-9011,35-9010,Dining Room and Cafeteria Attendants and Bartender Helpers,None,BLS Data
+35-9021.00,35-9021,35-9020,Dishwashers,None,BLS Data
+35-9031.00,35-9031,35-9030,"Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop",None,BLS Data
+35-9099.00,35-9099,35-9090,"Food Preparation and Serving Related Workers, All Other",None,BLS Data
+37-1011.00,37-1011,37-1010,First-Line Supervisors of Housekeeping and Janitorial Workers,High school diploma or equivalent,BLS Data
+37-1012.00,37-1012,37-1010,"First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers",High school diploma or equivalent,BLS Data
+37-2011.00,37-2011,37-2010,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners",None,BLS Data
+37-2012.00,37-2012,37-2010,Maids and Housekeeping Cleaners,None,BLS Data
+37-2019.00,37-2019,37-2010,"Building Cleaning Workers, All Other",None,BLS Data
+37-2021.00,37-2021,37-2020,Pest Control Workers,High school diploma or equivalent,BLS Data
+37-3011.00,37-3011,37-3010,Landscaping and Groundskeeping Workers,None,BLS Data
+37-3012.00,37-3012,37-3010,"Pesticide Handlers, Sprayers, and Applicators, Vegetation",High school diploma or equivalent,BLS Data
+37-3013.00,37-3013,37-3010,Tree Trimmers and Pruners,High school diploma or equivalent,BLS Data
+37-3019.00,37-3019,37-3010,"Grounds Maintenance Workers, All Other",None,BLS Data
+39-1013.00,39-1013,39-1010,First-Line Supervisors of Gambling Services Workers,High school diploma or equivalent,BLS Data
+39-1014.00,39-1014,39-1010,"First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Services",High school diploma or equivalent,BLS Data
+39-1022.00,39-1022,39-1020,First-Line Supervisors of Personal Service Workers,High school diploma or equivalent,BLS Data
+39-2011.00,39-2011,39-2010,Animal Trainers,High school diploma or equivalent,BLS Data
+39-2021.00,39-2021,39-2020,Animal Caretakers,High school diploma or equivalent,BLS Data
+39-3011.00,39-3011,39-3010,Gambling Dealers,High school diploma or equivalent,BLS Data
+39-3012.00,39-3012,39-3010,Gambling and Sports Book Writers and Runners,High school diploma or equivalent,BLS Data
+39-3019.00,39-3019,39-3010,"Gambling Service Workers, All Other",High school diploma or equivalent,BLS Data
+39-3021.00,39-3021,39-3020,Motion Picture Projectionists,None,BLS Data
+39-3031.00,39-3031,39-3030,"Ushers, Lobby Attendants, and Ticket Takers",None,BLS Data
+39-3091.00,39-3091,39-3090,Amusement and Recreation Attendants,None,BLS Data
+39-3092.00,39-3092,39-3090,Costume Attendants,High school diploma or equivalent,BLS Data
+39-3093.00,39-3093,39-3090,"Locker Room, Coatroom, and Dressing Room Attendants",High school diploma or equivalent,BLS Data
+39-3099.00,39-3099,39-3090,"Entertainment Attendants and Related Workers, All Other",High school diploma or equivalent,BLS Data
+39-4011.00,39-4011,39-4010,Embalmers,Associate's degree,BLS Data
+39-4012.00,39-4012,39-4010,Crematory Operators,High school diploma or equivalent,BLS Data
+39-4021.00,39-4021,39-4020,Funeral Attendants,High school diploma or equivalent,BLS Data
+39-4031.00,39-4031,39-4030,"Morticians, Undertakers, and Funeral Arrangers",Associate's degree,BLS Data
+39-5011.00,39-5011,39-5010,Barbers,High school diploma or equivalent,BLS Data
+39-5012.00,39-5012,39-5010,"Hairdressers, Hairstylists, and Cosmetologists",High school diploma or equivalent,BLS Data
+39-5091.00,39-5091,39-5090,"Makeup Artists, Theatrical and Performance",High school diploma or equivalent,BLS Data
+39-5092.00,39-5092,39-5090,Manicurists and Pedicurists,High school diploma or equivalent,BLS Data
+39-5093.00,39-5093,39-5090,Shampooers,None,BLS Data
+39-5094.00,39-5094,39-5090,Skincare Specialists,High school diploma or equivalent,BLS Data
+39-6011.00,39-6011,39-6010,Baggage Porters and Bellhops,High school diploma or equivalent,BLS Data
+39-6012.00,39-6012,39-6010,Concierges,High school diploma or equivalent,BLS Data
+39-7011.00,39-7011,39-7010,Tour Guides and Escorts,High school diploma or equivalent,SOC Broad Occupation Group
+39-7012.00,39-7012,39-7010,Travel Guides,High school diploma or equivalent,SOC Broad Occupation Group
+39-9011.00,39-9011,39-9010,Childcare Workers,High school diploma or equivalent,BLS Data
+39-9011.01,39-9011,39-9010,Nannies,High school diploma or equivalent,BLS Data
+39-9031.00,39-9031,39-9030,Exercise Trainers and Group Fitness Instructors,High school diploma or equivalent,BLS Data
+39-9032.00,39-9032,39-9030,Recreation Workers,High school diploma or equivalent,BLS Data
+39-9041.00,39-9041,39-9040,Residential Advisors,High school diploma or equivalent,BLS Data
+39-9099.00,39-9099,39-9090,"Personal Care and Service Workers, All Other",High school diploma or equivalent,BLS Data
+41-1011.00,41-1011,41-1010,First-Line Supervisors of Retail Sales Workers,High school diploma or equivalent,BLS Data
+41-1012.00,41-1012,41-1010,First-Line Supervisors of Non-Retail Sales Workers,High school diploma or equivalent,BLS Data
+41-2011.00,41-2011,41-2010,Cashiers,None,BLS Data
+41-2012.00,41-2012,41-2010,Gambling Change Persons and Booth Cashiers,None,BLS Data
+41-2021.00,41-2021,41-2020,Counter and Rental Clerks,None,BLS Data
+41-2022.00,41-2022,41-2020,Parts Salespersons,None,BLS Data
+41-2031.00,41-2031,41-2030,Retail Salespersons,None,BLS Data
+41-3011.00,41-3011,41-3010,Advertising Sales Agents,High school diploma or equivalent,BLS Data
+41-3021.00,41-3021,41-3020,Insurance Sales Agents,High school diploma or equivalent,BLS Data
+41-3031.00,41-3031,41-3030,"Securities, Commodities, and Financial Services Sales Agents",Bachelor's degree,BLS Data
+41-3041.00,41-3041,41-3040,Travel Agents,High school diploma or equivalent,BLS Data
+41-3091.00,41-3091,41-3090,"Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",High school diploma or equivalent,BLS Data
+41-4011.00,41-4011,41-4010,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",Bachelor's degree,BLS Data
+41-4011.07,41-4011,41-4010,Solar Sales Representatives and Assessors,Bachelor's degree,BLS Data
+41-4012.00,41-4012,41-4010,"Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",High school diploma or equivalent,BLS Data
+41-9011.00,41-9011,41-9010,Demonstrators and Product Promoters,None,BLS Data
+41-9012.00,41-9012,41-9010,Models,None,BLS Data
+41-9021.00,41-9021,41-9020,Real Estate Brokers,High school diploma or equivalent,BLS Data
+41-9022.00,41-9022,41-9020,Real Estate Sales Agents,High school diploma or equivalent,BLS Data
+41-9031.00,41-9031,41-9030,Sales Engineers,Bachelor's degree,BLS Data
+41-9041.00,41-9041,41-9040,Telemarketers,None,BLS Data
+41-9091.00,41-9091,41-9090,"Door-to-Door Sales Workers, News and Street Vendors, and Related Workers",None,BLS Data
+41-9099.00,41-9099,41-9090,"Sales and Related Workers, All Other",High school diploma or equivalent,BLS Data
+43-1011.00,43-1011,43-1010,First-Line Supervisors of Office and Administrative Support Workers,High school diploma or equivalent,BLS Data
+43-2011.00,43-2011,43-2010,"Switchboard Operators, Including Answering Service",High school diploma or equivalent,BLS Data
+43-2021.00,43-2021,43-2020,Telephone Operators,High school diploma or equivalent,BLS Data
+43-2099.00,43-2099,43-2090,"Communications Equipment Operators, All Other",High school diploma or equivalent,BLS Data
+43-3011.00,43-3011,43-3010,Bill and Account Collectors,High school diploma or equivalent,BLS Data
+43-3021.00,43-3021,43-3020,Billing and Posting Clerks,High school diploma or equivalent,BLS Data
+43-3031.00,43-3031,43-3030,"Bookkeeping, Accounting, and Auditing Clerks",High school diploma or equivalent,BLS Data
+43-3041.00,43-3041,43-3040,Gambling Cage Workers,High school diploma or equivalent,BLS Data
+43-3051.00,43-3051,43-3050,Payroll and Timekeeping Clerks,High school diploma or equivalent,BLS Data
+43-3061.00,43-3061,43-3060,Procurement Clerks,High school diploma or equivalent,BLS Data
+43-3071.00,43-3071,43-3070,Tellers,High school diploma or equivalent,BLS Data
+43-3099.00,43-3099,43-3090,"Financial Clerks, All Other",High school diploma or equivalent,BLS Data
+43-4011.00,43-4011,43-4010,Brokerage Clerks,High school diploma or equivalent,BLS Data
+43-4021.00,43-4021,43-4020,Correspondence Clerks,High school diploma or equivalent,BLS Data
+43-4031.00,43-4031,43-4030,"Court, Municipal, and License Clerks",High school diploma or equivalent,BLS Data
+43-4041.00,43-4041,43-4040,"Credit Authorizers, Checkers, and Clerks",High school diploma or equivalent,BLS Data
+43-4051.00,43-4051,43-4050,Customer Service Representatives,High school diploma or equivalent,BLS Data
+43-4061.00,43-4061,43-4060,"Eligibility Interviewers, Government Programs",High school diploma or equivalent,BLS Data
+43-4071.00,43-4071,43-4070,File Clerks,High school diploma or equivalent,BLS Data
+43-4081.00,43-4081,43-4080,"Hotel, Motel, and Resort Desk Clerks",High school diploma or equivalent,BLS Data
+43-4111.00,43-4111,43-4110,"Interviewers, Except Eligibility and Loan",High school diploma or equivalent,BLS Data
+43-4121.00,43-4121,43-4120,"Library Assistants, Clerical",High school diploma or equivalent,BLS Data
+43-4131.00,43-4131,43-4130,Loan Interviewers and Clerks,High school diploma or equivalent,BLS Data
+43-4141.00,43-4141,43-4140,New Accounts Clerks,High school diploma or equivalent,BLS Data
+43-4151.00,43-4151,43-4150,Order Clerks,High school diploma or equivalent,BLS Data
+43-4161.00,43-4161,43-4160,"Human Resources Assistants, Except Payroll and Timekeeping",Associate's degree,BLS Data
+43-4171.00,43-4171,43-4170,Receptionists and Information Clerks,High school diploma or equivalent,BLS Data
+43-4181.00,43-4181,43-4180,Reservation and Transportation Ticket Agents and Travel Clerks,High school diploma or equivalent,BLS Data
+43-4199.00,43-4199,43-4190,"Information and Record Clerks, All Other",High school diploma or equivalent,BLS Data
+43-5011.00,43-5011,43-5010,Cargo and Freight Agents,High school diploma or equivalent,BLS Data
+43-5011.01,43-5011,43-5010,Freight Forwarders,High school diploma or equivalent,BLS Data
+43-5021.00,43-5021,43-5020,Couriers and Messengers,High school diploma or equivalent,BLS Data
+43-5031.00,43-5031,43-5030,Public Safety Telecommunicators,High school diploma or equivalent,BLS Data
+43-5032.00,43-5032,43-5030,"Dispatchers, Except Police, Fire, and Ambulance",High school diploma or equivalent,BLS Data
+43-5041.00,43-5041,43-5040,"Meter Readers, Utilities",High school diploma or equivalent,BLS Data
+43-5051.00,43-5051,43-5050,Postal Service Clerks,None,BLS Data
+43-5052.00,43-5052,43-5050,Postal Service Mail Carriers,None,BLS Data
+43-5053.00,43-5053,43-5050,"Postal Service Mail Sorters, Processors, and Processing Machine Operators",None,BLS Data
+43-5061.00,43-5061,43-5060,"Production, Planning, and Expediting Clerks",High school diploma or equivalent,BLS Data
+43-5071.00,43-5071,43-5070,"Shipping, Receiving, and Inventory Clerks",High school diploma or equivalent,BLS Data
+43-5111.00,43-5111,43-5110,"Weighers, Measurers, Checkers, and Samplers, Recordkeeping",High school diploma or equivalent,BLS Data
+43-6011.00,43-6011,43-6010,Executive Secretaries and Executive Administrative Assistants,High school diploma or equivalent,BLS Data
+43-6012.00,43-6012,43-6010,Legal Secretaries and Administrative Assistants,High school diploma or equivalent,BLS Data
+43-6013.00,43-6013,43-6010,Medical Secretaries and Administrative Assistants,High school diploma or equivalent,BLS Data
+43-6014.00,43-6014,43-6010,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",High school diploma or equivalent,BLS Data
+43-9021.00,43-9021,43-9020,Data Entry Keyers,High school diploma or equivalent,BLS Data
+43-9022.00,43-9022,43-9020,Word Processors and Typists,High school diploma or equivalent,BLS Data
+43-9031.00,43-9031,43-9030,Desktop Publishers,Associate's degree,BLS Data
+43-9041.00,43-9041,43-9040,Insurance Claims and Policy Processing Clerks,High school diploma or equivalent,BLS Data
+43-9051.00,43-9051,43-9050,"Mail Clerks and Mail Machine Operators, Except Postal Service",High school diploma or equivalent,BLS Data
+43-9061.00,43-9061,43-9060,"Office Clerks, General",High school diploma or equivalent,BLS Data
+43-9071.00,43-9071,43-9070,"Office Machine Operators, Except Computer",High school diploma or equivalent,BLS Data
+43-9081.00,43-9081,43-9080,Proofreaders and Copy Markers,Bachelor's degree,BLS Data
+43-9111.00,43-9111,43-9110,Statistical Assistants,Bachelor's degree,BLS Data
+43-9199.00,43-9199,43-9190,"Office and Administrative Support Workers, All Other",High school diploma or equivalent,BLS Data
+45-1011.00,45-1011,45-1010,"First-Line Supervisors of Farming, Fishing, and Forestry Workers",High school diploma or equivalent,BLS Data
+45-2011.00,45-2011,45-2010,Agricultural Inspectors,Bachelor's degree,BLS Data
+45-2021.00,45-2021,45-2020,Animal Breeders,High school diploma or equivalent,BLS Data
+45-2041.00,45-2041,45-2040,"Graders and Sorters, Agricultural Products",None,BLS Data
+45-2091.00,45-2091,45-2090,Agricultural Equipment Operators,None,BLS Data
+45-2092.00,45-2092,45-2090,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",None,BLS Data
+45-2093.00,45-2093,45-2090,"Farmworkers, Farm, Ranch, and Aquacultural Animals",None,BLS Data
+45-2099.00,45-2099,45-2090,"Agricultural Workers, All Other",None,BLS Data
+45-3031.00,45-3031,45-3030,Fishing and Hunting Workers,None,BLS Data
+45-4011.00,45-4011,45-4010,Forest and Conservation Workers,High school diploma or equivalent,BLS Data
+45-4021.00,45-4021,45-4020,Fallers,High school diploma or equivalent,BLS Data
+45-4022.00,45-4022,45-4020,Logging Equipment Operators,High school diploma or equivalent,BLS Data
+45-4023.00,45-4023,45-4020,Log Graders and Scalers,High school diploma or equivalent,BLS Data
+45-4029.00,45-4029,45-4020,"Logging Workers, All Other",High school diploma or equivalent,BLS Data
+47-1011.00,47-1011,47-1010,First-Line Supervisors of Construction Trades and Extraction Workers,High school diploma or equivalent,BLS Data
+47-1011.03,47-1011,47-1010,Solar Energy Installation Managers,High school diploma or equivalent,BLS Data
+47-2011.00,47-2011,47-2010,Boilermakers,High school diploma or equivalent,BLS Data
+47-2021.00,47-2021,47-2020,Brickmasons and Blockmasons,High school diploma or equivalent,BLS Data
+47-2022.00,47-2022,47-2020,Stonemasons,High school diploma or equivalent,BLS Data
+47-2031.00,47-2031,47-2030,Carpenters,High school diploma or equivalent,BLS Data
+47-2041.00,47-2041,47-2040,Carpet Installers,None,BLS Data
+47-2042.00,47-2042,47-2040,"Floor Layers, Except Carpet, Wood, and Hard Tiles",None,BLS Data
+47-2043.00,47-2043,47-2040,Floor Sanders and Finishers,None,BLS Data
+47-2044.00,47-2044,47-2040,Tile and Stone Setters,None,BLS Data
+47-2051.00,47-2051,47-2050,Cement Masons and Concrete Finishers,None,BLS Data
+47-2053.00,47-2053,47-2050,Terrazzo Workers and Finishers,High school diploma or equivalent,BLS Data
+47-2061.00,47-2061,47-2060,Construction Laborers,None,BLS Data
+47-2071.00,47-2071,47-2070,"Paving, Surfacing, and Tamping Equipment Operators",High school diploma or equivalent,BLS Data
+47-2072.00,47-2072,47-2070,Pile Driver Operators,High school diploma or equivalent,BLS Data
+47-2073.00,47-2073,47-2070,Operating Engineers and Other Construction Equipment Operators,High school diploma or equivalent,BLS Data
+47-2081.00,47-2081,47-2080,Drywall and Ceiling Tile Installers,None,BLS Data
+47-2082.00,47-2082,47-2080,Tapers,None,BLS Data
+47-2111.00,47-2111,47-2110,Electricians,High school diploma or equivalent,BLS Data
+47-2121.00,47-2121,47-2120,Glaziers,High school diploma or equivalent,BLS Data
+47-2131.00,47-2131,47-2130,"Insulation Workers, Floor, Ceiling, and Wall",None,BLS Data
+47-2132.00,47-2132,47-2130,"Insulation Workers, Mechanical",High school diploma or equivalent,BLS Data
+47-2141.00,47-2141,47-2140,"Painters, Construction and Maintenance",None,BLS Data
+47-2142.00,47-2142,47-2140,Paperhangers,None,BLS Data
+47-2151.00,47-2151,47-2150,Pipelayers,None,BLS Data
+47-2152.00,47-2152,47-2150,"Plumbers, Pipefitters, and Steamfitters",High school diploma or equivalent,BLS Data
+47-2152.04,47-2152,47-2150,Solar Thermal Installers and Technicians,High school diploma or equivalent,BLS Data
+47-2161.00,47-2161,47-2160,Plasterers and Stucco Masons,None,BLS Data
+47-2171.00,47-2171,47-2170,Reinforcing Iron and Rebar Workers,High school diploma or equivalent,BLS Data
+47-2181.00,47-2181,47-2180,Roofers,None,BLS Data
+47-2211.00,47-2211,47-2210,Sheet Metal Workers,High school diploma or equivalent,BLS Data
+47-2221.00,47-2221,47-2220,Structural Iron and Steel Workers,High school diploma or equivalent,BLS Data
+47-2231.00,47-2231,47-2230,Solar Photovoltaic Installers,High school diploma or equivalent,BLS Data
+47-3011.00,47-3011,47-3010,"Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters",None,BLS Data
+47-3012.00,47-3012,47-3010,Helpers--Carpenters,None,BLS Data
+47-3013.00,47-3013,47-3010,Helpers--Electricians,High school diploma or equivalent,BLS Data
+47-3014.00,47-3014,47-3010,"Helpers--Painters, Paperhangers, Plasterers, and Stucco Masons",None,BLS Data
+47-3015.00,47-3015,47-3010,"Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters",High school diploma or equivalent,BLS Data
+47-3016.00,47-3016,47-3010,Helpers--Roofers,None,BLS Data
+47-3019.00,47-3019,47-3010,"Helpers, Construction Trades, All Other",None,BLS Data
+47-4011.00,47-4011,47-4010,Construction and Building Inspectors,High school diploma or equivalent,BLS Data
+47-4011.01,47-4011,47-4010,Energy Auditors,High school diploma or equivalent,BLS Data
+47-4021.00,47-4021,47-4020,Elevator and Escalator Installers and Repairers,High school diploma or equivalent,BLS Data
+47-4031.00,47-4031,47-4030,Fence Erectors,None,BLS Data
+47-4041.00,47-4041,47-4040,Hazardous Materials Removal Workers,High school diploma or equivalent,BLS Data
+47-4051.00,47-4051,47-4050,Highway Maintenance Workers,High school diploma or equivalent,BLS Data
+47-4061.00,47-4061,47-4060,Rail-Track Laying and Maintenance Equipment Operators,High school diploma or equivalent,BLS Data
+47-4071.00,47-4071,47-4070,Septic Tank Servicers and Sewer Pipe Cleaners,High school diploma or equivalent,BLS Data
+47-4091.00,47-4091,47-4090,Segmental Pavers,High school diploma or equivalent,SOC Broad Occupation Group
+47-4099.00,47-4099,47-4090,"Construction and Related Workers, All Other",High school diploma or equivalent,SOC Broad Occupation Group
+47-4099.03,47-4099,47-4090,Weatherization Installers and Technicians,High school diploma or equivalent,SOC Broad Occupation Group
+47-5011.00,47-5011,47-5010,"Derrick Operators, Oil and Gas",None,BLS Data
+47-5012.00,47-5012,47-5010,"Rotary Drill Operators, Oil and Gas",None,BLS Data
+47-5013.00,47-5013,47-5010,"Service Unit Operators, Oil and Gas",None,BLS Data
+47-5022.00,47-5022,47-5020,"Excavating and Loading Machine and Dragline Operators, Surface Mining",High school diploma or equivalent,BLS Data
+47-5023.00,47-5023,47-5020,"Earth Drillers, Except Oil and Gas",High school diploma or equivalent,BLS Data
+47-5032.00,47-5032,47-5030,"Explosives Workers, Ordnance Handling Experts, and Blasters",High school diploma or equivalent,BLS Data
+47-5041.00,47-5041,47-5040,Continuous Mining Machine Operators,None,BLS Data
+47-5043.00,47-5043,47-5040,"Roof Bolters, Mining",High school diploma or equivalent,BLS Data
+47-5044.00,47-5044,47-5040,"Loading and Moving Machine Operators, Underground Mining",None,BLS Data
+47-5049.00,47-5049,47-5040,"Underground Mining Machine Operators, All Other",None,BLS Data
+47-5051.00,47-5051,47-5050,"Rock Splitters, Quarry",None,BLS Data
+47-5071.00,47-5071,47-5070,"Roustabouts, Oil and Gas",None,BLS Data
+47-5081.00,47-5081,47-5080,Helpers--Extraction Workers,High school diploma or equivalent,BLS Data
+47-5099.00,47-5099,47-5090,"Extraction Workers, All Other",High school diploma or equivalent,BLS Data
+49-1011.00,49-1011,49-1010,"First-Line Supervisors of Mechanics, Installers, and Repairers",High school diploma or equivalent,BLS Data
+49-2011.00,49-2011,49-2010,"Computer, Automated Teller, and Office Machine Repairers",High school diploma or equivalent,BLS Data
+49-2021.00,49-2021,49-2020,"Radio, Cellular, and Tower Equipment Installers and Repairers",Associate's degree,BLS Data
+49-2022.00,49-2022,49-2020,"Telecommunications Equipment Installers and Repairers, Except Line Installers",High school diploma or equivalent,BLS Data
+49-2091.00,49-2091,49-2090,Avionics Technicians,Associate's degree,BLS Data
+49-2092.00,49-2092,49-2090,"Electric Motor, Power Tool, and Related Repairers",High school diploma or equivalent,BLS Data
+49-2093.00,49-2093,49-2090,"Electrical and Electronics Installers and Repairers, Transportation Equipment",High school diploma or equivalent,BLS Data
+49-2094.00,49-2094,49-2090,"Electrical and Electronics Repairers, Commercial and Industrial Equipment",High school diploma or equivalent,BLS Data
+49-2095.00,49-2095,49-2090,"Electrical and Electronics Repairers, Powerhouse, Substation, and Relay",High school diploma or equivalent,BLS Data
+49-2096.00,49-2096,49-2090,"Electronic Equipment Installers and Repairers, Motor Vehicles",High school diploma or equivalent,BLS Data
+49-2097.00,49-2097,49-2090,Audiovisual Equipment Installers and Repairers,High school diploma or equivalent,BLS Data
+49-2098.00,49-2098,49-2090,Security and Fire Alarm Systems Installers,High school diploma or equivalent,BLS Data
+49-3011.00,49-3011,49-3010,Aircraft Mechanics and Service Technicians,High school diploma or equivalent,BLS Data
+49-3021.00,49-3021,49-3020,Automotive Body and Related Repairers,High school diploma or equivalent,BLS Data
+49-3022.00,49-3022,49-3020,Automotive Glass Installers and Repairers,High school diploma or equivalent,BLS Data
+49-3023.00,49-3023,49-3020,Automotive Service Technicians and Mechanics,High school diploma or equivalent,BLS Data
+49-3031.00,49-3031,49-3030,Bus and Truck Mechanics and Diesel Engine Specialists,High school diploma or equivalent,BLS Data
+49-3041.00,49-3041,49-3040,Farm Equipment Mechanics and Service Technicians,High school diploma or equivalent,BLS Data
+49-3042.00,49-3042,49-3040,"Mobile Heavy Equipment Mechanics, Except Engines",High school diploma or equivalent,BLS Data
+49-3043.00,49-3043,49-3040,Rail Car Repairers,High school diploma or equivalent,BLS Data
+49-3051.00,49-3051,49-3050,Motorboat Mechanics and Service Technicians,High school diploma or equivalent,BLS Data
+49-3052.00,49-3052,49-3050,Motorcycle Mechanics,High school diploma or equivalent,BLS Data
+49-3053.00,49-3053,49-3050,Outdoor Power Equipment and Other Small Engine Mechanics,High school diploma or equivalent,BLS Data
+49-3091.00,49-3091,49-3090,Bicycle Repairers,High school diploma or equivalent,BLS Data
+49-3092.00,49-3092,49-3090,Recreational Vehicle Service Technicians,High school diploma or equivalent,BLS Data
+49-3093.00,49-3093,49-3090,Tire Repairers and Changers,High school diploma or equivalent,BLS Data
+49-9011.00,49-9011,49-9010,Mechanical Door Repairers,High school diploma or equivalent,BLS Data
+49-9012.00,49-9012,49-9010,"Control and Valve Installers and Repairers, Except Mechanical Door",High school diploma or equivalent,BLS Data
+49-9021.00,49-9021,49-9020,"Heating, Air Conditioning, and Refrigeration Mechanics and Installers",High school diploma or equivalent,BLS Data
+49-9031.00,49-9031,49-9030,Home Appliance Repairers,High school diploma or equivalent,BLS Data
+49-9041.00,49-9041,49-9040,Industrial Machinery Mechanics,High school diploma or equivalent,BLS Data
+49-9043.00,49-9043,49-9040,"Maintenance Workers, Machinery",High school diploma or equivalent,BLS Data
+49-9044.00,49-9044,49-9040,Millwrights,High school diploma or equivalent,BLS Data
+49-9045.00,49-9045,49-9040,"Refractory Materials Repairers, Except Brickmasons",High school diploma or equivalent,BLS Data
+49-9051.00,49-9051,49-9050,Electrical Power-Line Installers and Repairers,High school diploma or equivalent,BLS Data
+49-9052.00,49-9052,49-9050,Telecommunications Line Installers and Repairers,High school diploma or equivalent,BLS Data
+49-9061.00,49-9061,49-9060,Camera and Photographic Equipment Repairers,High school diploma or equivalent,BLS Data
+49-9062.00,49-9062,49-9060,Medical Equipment Repairers,Associate's degree,BLS Data
+49-9063.00,49-9063,49-9060,Musical Instrument Repairers and Tuners,High school diploma or equivalent,BLS Data
+49-9064.00,49-9064,49-9060,Watch and Clock Repairers,High school diploma or equivalent,BLS Data
+49-9069.00,49-9069,49-9060,"Precision Instrument and Equipment Repairers, All Other",High school diploma or equivalent,BLS Data
+49-9071.00,49-9071,49-9070,"Maintenance and Repair Workers, General",High school diploma or equivalent,BLS Data
+49-9081.00,49-9081,49-9080,Wind Turbine Service Technicians,High school diploma or equivalent,BLS Data
+49-9091.00,49-9091,49-9090,"Coin, Vending, and Amusement Machine Servicers and Repairers",High school diploma or equivalent,BLS Data
+49-9092.00,49-9092,49-9090,Commercial Divers,High school diploma or equivalent,BLS Data
+49-9094.00,49-9094,49-9090,Locksmiths and Safe Repairers,High school diploma or equivalent,BLS Data
+49-9095.00,49-9095,49-9090,Manufactured Building and Mobile Home Installers,High school diploma or equivalent,BLS Data
+49-9096.00,49-9096,49-9090,Riggers,High school diploma or equivalent,BLS Data
+49-9097.00,49-9097,49-9090,Signal and Track Switch Repairers,High school diploma or equivalent,BLS Data
+49-9098.00,49-9098,49-9090,"Helpers--Installation, Maintenance, and Repair Workers",High school diploma or equivalent,BLS Data
+49-9099.00,49-9099,49-9090,"Installation, Maintenance, and Repair Workers, All Other",High school diploma or equivalent,BLS Data
+49-9099.01,49-9099,49-9090,Geothermal Technicians,High school diploma or equivalent,BLS Data
+51-1011.00,51-1011,51-1010,First-Line Supervisors of Production and Operating Workers,High school diploma or equivalent,BLS Data
+51-2011.00,51-2011,51-2010,"Aircraft Structure, Surfaces, Rigging, and Systems Assemblers",High school diploma or equivalent,BLS Data
+51-2021.00,51-2021,51-2020,"Coil Winders, Tapers, and Finishers",High school diploma or equivalent,BLS Data
+51-2022.00,51-2022,51-2020,Electrical and Electronic Equipment Assemblers,High school diploma or equivalent,SOC Broad Occupation Group
+51-2023.00,51-2023,51-2020,Electromechanical Equipment Assemblers,High school diploma or equivalent,SOC Broad Occupation Group
+51-2031.00,51-2031,51-2030,Engine and Other Machine Assemblers,High school diploma or equivalent,BLS Data
+51-2041.00,51-2041,51-2040,Structural Metal Fabricators and Fitters,High school diploma or equivalent,BLS Data
+51-2051.00,51-2051,51-2050,Fiberglass Laminators and Fabricators,High school diploma or equivalent,BLS Data
+51-2061.00,51-2061,51-2060,Timing Device Assemblers and Adjusters,High school diploma or equivalent,BLS Data
+51-2092.00,51-2092,51-2090,Team Assemblers,High school diploma or equivalent,SOC Broad Occupation Group
+51-2099.00,51-2099,51-2090,"Assemblers and Fabricators, All Other",High school diploma or equivalent,SOC Broad Occupation Group
+51-3011.00,51-3011,51-3010,Bakers,None,BLS Data
+51-3021.00,51-3021,51-3020,Butchers and Meat Cutters,None,BLS Data
+51-3022.00,51-3022,51-3020,"Meat, Poultry, and Fish Cutters and Trimmers",None,BLS Data
+51-3023.00,51-3023,51-3020,Slaughterers and Meat Packers,None,BLS Data
+51-3091.00,51-3091,51-3090,"Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders",None,BLS Data
+51-3092.00,51-3092,51-3090,Food Batchmakers,High school diploma or equivalent,BLS Data
+51-3093.00,51-3093,51-3090,Food Cooking Machine Operators and Tenders,High school diploma or equivalent,BLS Data
+51-3099.00,51-3099,51-3090,"Food Processing Workers, All Other",None,BLS Data
+51-4021.00,51-4021,51-4020,"Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",High school diploma or equivalent,BLS Data
+51-4022.00,51-4022,51-4020,"Forging Machine Setters, Operators, and Tenders, Metal and Plastic",High school diploma or equivalent,BLS Data
+51-4023.00,51-4023,51-4020,"Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",High school diploma or equivalent,BLS Data
+51-4031.00,51-4031,51-4030,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",High school diploma or equivalent,BLS Data
+51-4032.00,51-4032,51-4030,"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",High school diploma or equivalent,BLS Data
+51-4033.00,51-4033,51-4030,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",High school diploma or equivalent,BLS Data
+51-4034.00,51-4034,51-4030,"Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic",High school diploma or equivalent,BLS Data
+51-4035.00,51-4035,51-4030,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",High school diploma or equivalent,BLS Data
+51-4041.00,51-4041,51-4040,Machinists,High school diploma or equivalent,BLS Data
+51-4051.00,51-4051,51-4050,Metal-Refining Furnace Operators and Tenders,High school diploma or equivalent,BLS Data
+51-4052.00,51-4052,51-4050,"Pourers and Casters, Metal",High school diploma or equivalent,BLS Data
+51-4061.00,51-4061,51-4060,"Model Makers, Metal and Plastic",High school diploma or equivalent,BLS Data
+51-4062.00,51-4062,51-4060,"Patternmakers, Metal and Plastic",High school diploma or equivalent,BLS Data
+51-4071.00,51-4071,51-4070,Foundry Mold and Coremakers,High school diploma or equivalent,BLS Data
+51-4072.00,51-4072,51-4070,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",High school diploma or equivalent,BLS Data
+51-4081.00,51-4081,51-4080,"Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic",High school diploma or equivalent,BLS Data
+51-4111.00,51-4111,51-4110,Tool and Die Makers,High school diploma or equivalent,BLS Data
+51-4121.00,51-4121,51-4120,"Welders, Cutters, Solderers, and Brazers",High school diploma or equivalent,BLS Data
+51-4122.00,51-4122,51-4120,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",High school diploma or equivalent,BLS Data
+51-4191.00,51-4191,51-4190,"Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",High school diploma or equivalent,BLS Data
+51-4192.00,51-4192,51-4190,"Layout Workers, Metal and Plastic",High school diploma or equivalent,BLS Data
+51-4193.00,51-4193,51-4190,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",High school diploma or equivalent,BLS Data
+51-4194.00,51-4194,51-4190,"Tool Grinders, Filers, and Sharpeners",High school diploma or equivalent,BLS Data
+51-4199.00,51-4199,51-4190,"Metal Workers and Plastic Workers, All Other",High school diploma or equivalent,BLS Data
+51-5111.00,51-5111,51-5110,Prepress Technicians and Workers,High school diploma or equivalent,BLS Data
+51-5112.00,51-5112,51-5110,Printing Press Operators,High school diploma or equivalent,BLS Data
+51-5113.00,51-5113,51-5110,Print Binding and Finishing Workers,High school diploma or equivalent,BLS Data
+51-6011.00,51-6011,51-6010,Laundry and Dry-Cleaning Workers,None,BLS Data
+51-6021.00,51-6021,51-6020,"Pressers, Textile, Garment, and Related Materials",None,BLS Data
+51-6031.00,51-6031,51-6030,Sewing Machine Operators,None,BLS Data
+51-6041.00,51-6041,51-6040,Shoe and Leather Workers and Repairers,High school diploma or equivalent,BLS Data
+51-6042.00,51-6042,51-6040,Shoe Machine Operators and Tenders,High school diploma or equivalent,BLS Data
+51-6051.00,51-6051,51-6050,"Sewers, Hand",None,BLS Data
+51-6052.00,51-6052,51-6050,"Tailors, Dressmakers, and Custom Sewers",None,BLS Data
+51-6061.00,51-6061,51-6060,Textile Bleaching and Dyeing Machine Operators and Tenders,High school diploma or equivalent,BLS Data
+51-6062.00,51-6062,51-6060,"Textile Cutting Machine Setters, Operators, and Tenders",High school diploma or equivalent,BLS Data
+51-6063.00,51-6063,51-6060,"Textile Knitting and Weaving Machine Setters, Operators, and Tenders",High school diploma or equivalent,BLS Data
+51-6064.00,51-6064,51-6060,"Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders",High school diploma or equivalent,BLS Data
+51-6091.00,51-6091,51-6090,"Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers",High school diploma or equivalent,BLS Data
+51-6092.00,51-6092,51-6090,Fabric and Apparel Patternmakers,High school diploma or equivalent,BLS Data
+51-6093.00,51-6093,51-6090,Upholsterers,High school diploma or equivalent,BLS Data
+51-6099.00,51-6099,51-6090,"Textile, Apparel, and Furnishings Workers, All Other",High school diploma or equivalent,BLS Data
+51-7011.00,51-7011,51-7010,Cabinetmakers and Bench Carpenters,High school diploma or equivalent,BLS Data
+51-7021.00,51-7021,51-7020,Furniture Finishers,High school diploma or equivalent,BLS Data
+51-7031.00,51-7031,51-7030,"Model Makers, Wood",High school diploma or equivalent,BLS Data
+51-7032.00,51-7032,51-7030,"Patternmakers, Wood",High school diploma or equivalent,BLS Data
+51-7041.00,51-7041,51-7040,"Sawing Machine Setters, Operators, and Tenders, Wood",High school diploma or equivalent,BLS Data
+51-7042.00,51-7042,51-7040,"Woodworking Machine Setters, Operators, and Tenders, Except Sawing",High school diploma or equivalent,BLS Data
+51-7099.00,51-7099,51-7090,"Woodworkers, All Other",High school diploma or equivalent,BLS Data
+51-8011.00,51-8011,51-8010,Nuclear Power Reactor Operators,High school diploma or equivalent,BLS Data
+51-8012.00,51-8012,51-8010,Power Distributors and Dispatchers,High school diploma or equivalent,BLS Data
+51-8013.00,51-8013,51-8010,Power Plant Operators,High school diploma or equivalent,BLS Data
+51-8013.03,51-8013,51-8010,Biomass Plant Technicians,High school diploma or equivalent,BLS Data
+51-8013.04,51-8013,51-8010,Hydroelectric Plant Technicians,High school diploma or equivalent,BLS Data
+51-8021.00,51-8021,51-8020,Stationary Engineers and Boiler Operators,High school diploma or equivalent,BLS Data
+51-8031.00,51-8031,51-8030,Water and Wastewater Treatment Plant and System Operators,High school diploma or equivalent,BLS Data
+51-8091.00,51-8091,51-8090,Chemical Plant and System Operators,High school diploma or equivalent,BLS Data
+51-8092.00,51-8092,51-8090,Gas Plant Operators,High school diploma or equivalent,BLS Data
+51-8093.00,51-8093,51-8090,"Petroleum Pump System Operators, Refinery Operators, and Gaugers",High school diploma or equivalent,BLS Data
+51-8099.00,51-8099,51-8090,"Plant and System Operators, All Other",High school diploma or equivalent,BLS Data
+51-8099.01,51-8099,51-8090,Biofuels Processing Technicians,High school diploma or equivalent,BLS Data
+51-9011.00,51-9011,51-9010,Chemical Equipment Operators and Tenders,High school diploma or equivalent,BLS Data
+51-9012.00,51-9012,51-9010,"Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders",High school diploma or equivalent,BLS Data
+51-9021.00,51-9021,51-9020,"Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders",High school diploma or equivalent,BLS Data
+51-9022.00,51-9022,51-9020,"Grinding and Polishing Workers, Hand",None,BLS Data
+51-9023.00,51-9023,51-9020,"Mixing and Blending Machine Setters, Operators, and Tenders",High school diploma or equivalent,BLS Data
+51-9031.00,51-9031,51-9030,"Cutters and Trimmers, Hand",None,BLS Data
+51-9032.00,51-9032,51-9030,"Cutting and Slicing Machine Setters, Operators, and Tenders",High school diploma or equivalent,BLS Data
+51-9041.00,51-9041,51-9040,"Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders",High school diploma or equivalent,BLS Data
+51-9051.00,51-9051,51-9050,"Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders",High school diploma or equivalent,BLS Data
+51-9061.00,51-9061,51-9060,"Inspectors, Testers, Sorters, Samplers, and Weighers",High school diploma or equivalent,BLS Data
+51-9071.00,51-9071,51-9070,Jewelers and Precious Stone and Metal Workers,High school diploma or equivalent,BLS Data
+51-9071.06,51-9071,51-9070,Gem and Diamond Workers,High school diploma or equivalent,BLS Data
+51-9081.00,51-9081,51-9080,Dental Laboratory Technicians,High school diploma or equivalent,BLS Data
+51-9082.00,51-9082,51-9080,Medical Appliance Technicians,High school diploma or equivalent,BLS Data
+51-9083.00,51-9083,51-9080,Ophthalmic Laboratory Technicians,High school diploma or equivalent,BLS Data
+51-9111.00,51-9111,51-9110,Packaging and Filling Machine Operators and Tenders,High school diploma or equivalent,BLS Data
+51-9123.00,51-9123,51-9120,"Painting, Coating, and Decorating Workers",None,BLS Data
+51-9124.00,51-9124,51-9120,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",High school diploma or equivalent,BLS Data
+51-9141.00,51-9141,51-9140,Semiconductor Processing Technicians,High school diploma or equivalent,BLS Data
+51-9151.00,51-9151,51-9150,Photographic Process Workers and Processing Machine Operators,High school diploma or equivalent,BLS Data
+51-9161.00,51-9161,51-9160,Computer Numerically Controlled Tool Operators,High school diploma or equivalent,BLS Data
+51-9162.00,51-9162,51-9160,Computer Numerically Controlled Tool Programmers,High school diploma or equivalent,BLS Data
+51-9191.00,51-9191,51-9190,Adhesive Bonding Machine Operators and Tenders,High school diploma or equivalent,BLS Data
+51-9192.00,51-9192,51-9190,"Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders",High school diploma or equivalent,BLS Data
+51-9193.00,51-9193,51-9190,Cooling and Freezing Equipment Operators and Tenders,High school diploma or equivalent,BLS Data
+51-9194.00,51-9194,51-9190,Etchers and Engravers,High school diploma or equivalent,BLS Data
+51-9195.00,51-9195,51-9190,"Molders, Shapers, and Casters, Except Metal and Plastic",High school diploma or equivalent,BLS Data
+51-9195.03,51-9195,51-9190,"Stone Cutters and Carvers, Manufacturing",High school diploma or equivalent,BLS Data
+51-9195.04,51-9195,51-9190,"Glass Blowers, Molders, Benders, and Finishers",High school diploma or equivalent,BLS Data
+51-9195.05,51-9195,51-9190,"Potters, Manufacturing",High school diploma or equivalent,BLS Data
+51-9196.00,51-9196,51-9190,"Paper Goods Machine Setters, Operators, and Tenders",High school diploma or equivalent,BLS Data
+51-9197.00,51-9197,51-9190,Tire Builders,High school diploma or equivalent,BLS Data
+51-9198.00,51-9198,51-9190,Helpers--Production Workers,High school diploma or equivalent,BLS Data
+51-9199.00,51-9199,51-9190,"Production Workers, All Other",High school diploma or equivalent,BLS Data
+53-1041.00,53-1041,53-1040,Aircraft Cargo Handling Supervisors,High school diploma or equivalent,BLS Data
+53-1042.00,53-1042,53-1040,"First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand",High school diploma or equivalent,SOC Broad Occupation Group
+53-1042.01,53-1042,53-1040,Recycling Coordinators,High school diploma or equivalent,SOC Broad Occupation Group
+53-1043.00,53-1043,53-1040,First-Line Supervisors of Material-Moving Machine and Vehicle Operators,High school diploma or equivalent,SOC Broad Occupation Group
+53-1044.00,53-1044,53-1040,First-Line Supervisors of Passenger Attendants,High school diploma or equivalent,SOC Broad Occupation Group
+53-1049.00,53-1049,53-1040,"First-Line Supervisors of Transportation Workers, All Other",High school diploma or equivalent,SOC Broad Occupation Group
+53-2011.00,53-2011,53-2010,"Airline Pilots, Copilots, and Flight Engineers",Bachelor's degree,BLS Data
+53-2012.00,53-2012,53-2010,Commercial Pilots,High school diploma or equivalent,BLS Data
+53-2021.00,53-2021,53-2020,Air Traffic Controllers,Associate's degree,BLS Data
+53-2022.00,53-2022,53-2020,Airfield Operations Specialists,High school diploma or equivalent,BLS Data
+53-2031.00,53-2031,53-2030,Flight Attendants,High school diploma or equivalent,BLS Data
+53-3011.00,53-3011,53-3010,"Ambulance Drivers and Attendants, Except Emergency Medical Technicians",High school diploma or equivalent,BLS Data
+53-3031.00,53-3031,53-3030,Driver/Sales Workers,High school diploma or equivalent,BLS Data
+53-3032.00,53-3032,53-3030,Heavy and Tractor-Trailer Truck Drivers,High school diploma or equivalent,BLS Data
+53-3033.00,53-3033,53-3030,Light Truck Drivers,High school diploma or equivalent,BLS Data
+53-3051.00,53-3051,53-3050,"Bus Drivers, School",High school diploma or equivalent,BLS Data
+53-3052.00,53-3052,53-3050,"Bus Drivers, Transit and Intercity",High school diploma or equivalent,BLS Data
+53-3053.00,53-3053,53-3050,Shuttle Drivers and Chauffeurs,None,BLS Data
+53-3054.00,53-3054,53-3050,Taxi Drivers,None,BLS Data
+53-3099.00,53-3099,53-3090,"Motor Vehicle Operators, All Other",None,BLS Data
+53-4011.00,53-4011,53-4010,Locomotive Engineers,High school diploma or equivalent,BLS Data
+53-4013.00,53-4013,53-4010,"Rail Yard Engineers, Dinkey Operators, and Hostlers",High school diploma or equivalent,BLS Data
+53-4022.00,53-4022,53-4020,"Railroad Brake, Signal, and Switch Operators and Locomotive Firers",High school diploma or equivalent,BLS Data
+53-4031.00,53-4031,53-4030,Railroad Conductors and Yardmasters,High school diploma or equivalent,BLS Data
+53-4041.00,53-4041,53-4040,Subway and Streetcar Operators,High school diploma or equivalent,BLS Data
+53-4099.00,53-4099,53-4090,"Rail Transportation Workers, All Other",High school diploma or equivalent,BLS Data
+53-5011.00,53-5011,53-5010,Sailors and Marine Oilers,None,BLS Data
+53-5021.00,53-5021,53-5020,"Captains, Mates, and Pilots of Water Vessels",High school diploma or equivalent,BLS Data
+53-5022.00,53-5022,53-5020,Motorboat Operators,High school diploma or equivalent,BLS Data
+53-5031.00,53-5031,53-5030,Ship Engineers,High school diploma or equivalent,BLS Data
+53-6011.00,53-6011,53-6010,Bridge and Lock Tenders,High school diploma or equivalent,BLS Data
+53-6021.00,53-6021,53-6020,Parking Attendants,None,BLS Data
+53-6031.00,53-6031,53-6030,Automotive and Watercraft Service Attendants,None,BLS Data
+53-6032.00,53-6032,53-6030,Aircraft Service Attendants,High school diploma or equivalent,BLS Data
+53-6041.00,53-6041,53-6040,Traffic Technicians,High school diploma or equivalent,BLS Data
+53-6051.00,53-6051,53-6050,Transportation Inspectors,High school diploma or equivalent,BLS Data
+53-6051.01,53-6051,53-6050,Aviation Inspectors,High school diploma or equivalent,BLS Data
+53-6051.07,53-6051,53-6050,"Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation",High school diploma or equivalent,BLS Data
+53-6061.00,53-6061,53-6060,Passenger Attendants,High school diploma or equivalent,BLS Data
+53-6099.00,53-6099,53-6090,"Transportation Workers, All Other",High school diploma or equivalent,BLS Data
+53-7011.00,53-7011,53-7010,Conveyor Operators and Tenders,None,BLS Data
+53-7021.00,53-7021,53-7020,Crane and Tower Operators,High school diploma or equivalent,BLS Data
+53-7031.00,53-7031,53-7030,Dredge Operators,High school diploma or equivalent,BLS Data
+53-7041.00,53-7041,53-7040,Hoist and Winch Operators,None,BLS Data
+53-7051.00,53-7051,53-7050,Industrial Truck and Tractor Operators,None,BLS Data
+53-7061.00,53-7061,53-7060,Cleaners of Vehicles and Equipment,None,BLS Data
+53-7062.00,53-7062,53-7060,"Laborers and Freight, Stock, and Material Movers, Hand",None,BLS Data
+53-7062.04,53-7062,53-7060,Recycling and Reclamation Workers,None,BLS Data
+53-7063.00,53-7063,53-7060,Machine Feeders and Offbearers,None,BLS Data
+53-7064.00,53-7064,53-7060,"Packers and Packagers, Hand",None,BLS Data
+53-7065.00,53-7065,53-7060,Stockers and Order Fillers,High school diploma or equivalent,BLS Data
+53-7071.00,53-7071,53-7070,Gas Compressor and Gas Pumping Station Operators,High school diploma or equivalent,BLS Data
+53-7072.00,53-7072,53-7070,"Pump Operators, Except Wellhead Pumpers",High school diploma or equivalent,BLS Data
+53-7073.00,53-7073,53-7070,Wellhead Pumpers,High school diploma or equivalent,BLS Data
+53-7081.00,53-7081,53-7080,Refuse and Recyclable Material Collectors,None,BLS Data
+53-7121.00,53-7121,53-7120,"Tank Car, Truck, and Ship Loaders",None,BLS Data
+53-7199.00,53-7199,53-7190,"Material Moving Workers, All Other",None,BLS Data
