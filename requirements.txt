@@ -1,3 +1,5 @@
 streamlit
 pandas
 sentence-transformers
+pymongo
+scikit-learn
