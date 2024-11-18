@@ -261,7 +261,7 @@ if st.button("Find Jobs"):
                 # Function to create O*NET link
                 def create_onet_link(soc_code):
                     formatted_soc_code = ''.join(filter(str.isdigit, str(soc_code)))
-                    return f"https://www.onetonline.org/link/summary/{formatted_soc_code}.00"
+                    return f"https://www.onetonline.org/link/summary/{soc_code}.00"
 
                 # Add hyperlinks to 'Job Title'
                 final_df['Job Title'] = final_df.apply(
