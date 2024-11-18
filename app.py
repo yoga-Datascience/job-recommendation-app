@@ -49,7 +49,7 @@ salary_input = st.number_input(
     "Please enter your salary expectation:",
     min_value=0,
     max_value=int(salary_df['Average'].max()),
-    step=5000
+    step=5
 )
 
 # Education level (ranked 0 to 5)
@@ -72,7 +72,7 @@ prestige_input = st.slider(
     "Please enter your expected level of prestige (1 to 5):",
     min_value=1,
     max_value=5,
-    step=1
+    step=0.5
 )
 
 # State input
