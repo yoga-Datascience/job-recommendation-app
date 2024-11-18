@@ -101,7 +101,7 @@ st.title("Job Recommendation System")
 
 st.markdown("""
 Please provide the following information to receive tailored job recommendations:
-- *Expected Salary:* Enter your desired annual salary in USD (Max: \$300,000).
+- *Expected Salary:* Enter your desired annual salary per hr in USD.
 - *Prestige Level:* Select the prestige level of the job (1 being lowest, 5 being highest).
 - *Location:* Choose your preferred state and county/town.
 - *Education Qualification:* Select your highest level of education.
@@ -157,7 +157,7 @@ county_input = st.selectbox(
 # Job description input
 job_description = st.text_area(
     "Describe the type of job you're looking for:",
-    height=200
+    height=200,
     placeholder="e.g., Seeking a software engineering role with a focus on machine learning and data analysis.",
     help="Provide a brief description of the job you're looking for. Include your key skills and areas of interest."  
 )
