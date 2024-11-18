@@ -299,7 +299,7 @@ if st.button("Find Jobs"):
 
                 if submit_feedback:
                     if feedback is not None and len(feedback) > 0:
-                        success = save_feedback(feedback)
+                        success = save_feedback(feedback,'feedback.csv')
                         if success:
                             st.success("Thank you for your feedback!")
                         else:
