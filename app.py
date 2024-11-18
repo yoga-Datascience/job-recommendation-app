@@ -225,5 +225,3 @@ if st.button("Find Jobs"):
                     st.error("No feedback collected.")
         else:
             st.warning("No jobs found matching your criteria.")
-        else:
-            st.warning("No jobs found matching your criteria.")
