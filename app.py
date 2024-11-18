@@ -72,7 +72,7 @@ prestige_input = st.slider(
     "Please enter your expected level of prestige (1 to 5):",
     min_value=1,
     max_value=5,
-    step=0.5
+    step=1
 )
 
 # State input
