@@ -49,7 +49,7 @@ def collect_feedback(final_df, salary_input, education_input_label, prestige_inp
     # Return both feedback and the submit_feedback flag
     return feedback, submit_feedback
 
-def save_feedback(feedback, filename='feedback.csv'):
+def save_feedback(feedback, filename):
     if feedback is not None and len(feedback) > 0:
         feedback_df = pd.DataFrame(feedback)
         # Ensure consistent column order
