@@ -298,7 +298,7 @@ if st.button("Find Jobs"):
                 )
 
                 if submit_feedback:
-                    if feedback is not None:
+                    if feedback is not None and len(feedback) > 0:
                         success = save_feedback(feedback)
                         if success:
                             st.success("Thank you for your feedback!")
@@ -311,9 +311,4 @@ if st.button("Find Jobs"):
 
         except Exception as e:
             st.error(f"An error occurred: {e}")
-
-# ----------------------------- #
-#       Additional Notes         #
-# ----------------------------- #
-
 
