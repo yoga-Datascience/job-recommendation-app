@@ -49,22 +49,12 @@ def collect_feedback(final_df, salary_input, education_input_label, prestige_inp
     # Return both feedback and the submit_feedback flag
     return feedback, submit_feedback
 
-def save_feedback(feedback, filename):
+def save_feedback(feedback, filename='feedback.txt'):
     if feedback is not None and len(feedback) > 0:
-        feedback_df = pd.DataFrame(feedback)
-        # Ensure consistent column order
-        columns = ['SOC Code', 'Job Title', 'User Rating', 'Salary Expectation', 'Education Level',
-                   'Prestige Level', 'State', 'County', 'Job Description']
-        feedback_df = feedback_df[columns]
-
         try:
-            # Check if the file exists
-            if os.path.exists(filename):
-                # Append to the existing file without writing the header
-                feedback_df.to_csv(filename, mode='a', header=False, index=False)
-            else:
-                # Write to a new file, including the header
-                feedback_df.to_csv(filename, index=False)
+            with open(filename, 'a') as file:
+                for entry in feedback:
+                    file.write(f"{entry}\n")
             return True
         except Exception as e:
             st.error(f"An error occurred while saving feedback: {e}")
