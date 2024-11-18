@@ -304,8 +304,3 @@ if st.button("Find Jobs"):
 # ----------------------------- #
 #       Additional Notes         #
 # ----------------------------- #
-
-st.markdown("""
----
-*Note: Ensure that all CSV files (`Salary.csv`, `Duties.csv`, `Education.csv`, `Geography.csv`, `Prestige.csv`) are correctly placed in the application's directory. Additionally, the `feedback` module should contain the `collect_feedback` and `save_feedback` functions as expected.*
-""")
