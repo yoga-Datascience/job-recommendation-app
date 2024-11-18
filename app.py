@@ -112,7 +112,8 @@ Please provide the following information to receive tailored job recommendations
 salary_input = st.number_input(
     "Please enter your salary expectation $/hr:",
     min_value=0,
-    max_value=int(salary_df['Average'].max()),
+    #max_value=int(salary_df['Average'].max()),
+    max_value=200,
     step=1,
     value=int(salary_df['Average'].median())
 )
