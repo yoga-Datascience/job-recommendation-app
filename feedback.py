@@ -62,7 +62,7 @@ def save_feedback(feedback, github_token_env_var='ghp_6kijKVqR8BIp6bRshhL23EfIup
                 return False
 
             # GitHub API URL for the file
-            api_url = f'https://api.github.com/repos/{repo_name}/contents/{file_path}'
+            api_url = f'https://api.github.com/repos/{repo_name}/blob/main/{file_path}'
 
             headers = {
                 'Authorization': f'token {github_token}',
