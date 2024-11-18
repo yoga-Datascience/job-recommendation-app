@@ -52,7 +52,7 @@ def collect_feedback(final_df, salary_input, education_input_label, prestige_inp
     # Return both feedback and the submit_feedback flag
     return feedback, submit_feedback
 
-def save_feedback(feedback, github_token_env_var='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', repo_name='yourusername/yourrepo', file_path='feedback.txt', commit_message='Update feedback', branch='main'):
+def save_feedback(feedback, github_token_env_var='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', repo_name='yoga-Datascience/job-recommendation-app', file_path='feedback.txt', commit_message='Update feedback', branch='main'):
     if feedback is not None and len(feedback) > 0:
         try:
             # Get the GitHub token from environment variable
