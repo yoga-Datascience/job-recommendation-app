@@ -38,7 +38,7 @@ def collect_feedback(final_df, salary_input, education_input_label, prestige_inp
     # Return both feedback and the submit_feedback flag
     return feedback, submit_feedback
 
-def save_feedback(feedback, filename='/home/yoga/Archive/Projects/job-recommendation-app/feedback.csv'):
+def save_feedback(feedback, filename='feedback.csv'):
     if feedback is not None:
         feedback_df = pd.DataFrame(feedback)
         # Ensure consistent column order
