@@ -99,12 +99,21 @@ job_embeddings = compute_job_embeddings(model, job_duties_list)
 
 st.title("Job Recommendation System")
 
+st.markdown("""
+Please provide the following information to receive tailored job recommendations:
+- *Expected Salary:* Enter your desired annual salary in USD (Max: \$300,000).
+- *Prestige Level:* Select the prestige level of the job (1 being lowest, 5 being highest).
+- *Location:* Choose your preferred state and county/town.
+- *Education Qualification:* Select your highest level of education.
+- *Job Description:* Describe the type of job you're looking for, including key skills and areas of interest.
+""")
+
 # Salary expectation input
 salary_input = st.number_input(
-    "Please enter your salary expectation:",
+    "Please enter your salary expectation $/hr:",
     min_value=0,
     max_value=int(salary_df['Average'].max()),
-    step=5000,
+    step=1,
     value=int(salary_df['Average'].median())
 )
 
@@ -129,7 +138,7 @@ prestige_input = st.slider(
     min_value=1,
     max_value=5,
     step=1,
-    value=3
+    value=0
 )
 
 # State input
@@ -149,6 +158,8 @@ county_input = st.selectbox(
 job_description = st.text_area(
     "Describe the type of job you're looking for:",
     height=200
+    placeholder="e.g., Seeking a software engineering role with a focus on machine learning and data analysis.",
+    help="Provide a brief description of the job you're looking for. Include your key skills and areas of interest."  
 )
 
 # ----------------------------- #
