@@ -16,37 +16,30 @@ def load_data():
 salary_df, duties_df, education_df, geography_df, prestige_df = load_data()
 
 # Standardize 'Soc Code's across DataFrames
-def standardize_soc_code(df, column='Soc Code'):
-    df[column] = df[column].astype(str).str.strip()
-    df[column] = df[column].str.split('.').str[0]  # Remove decimal part
-    df[column] = df[column].str.replace(r'[^0-9\-]', '', regex=True)
-    df[column] = df[column].astype(str).str.strip()
-    return df
+def standardize_soc_code(soc_code):
+    soc_code = str(soc_code).strip()
+    soc_code = soc_code.split('.')[0]  # Remove decimal part
+    soc_code = ''.join(filter(lambda x: x.isdigit() or x == '-', soc_code))
+    return soc_code
 
 # Apply the cleaning function to all DataFrames
 for df in [salary_df, duties_df, education_df, prestige_df]:
-    standardize_soc_code(df)
+    df['Soc Code'] = df['Soc Code'].apply(standardize_soc_code)
+    df['Soc Code'] = df['Soc Code'].astype(str).str.strip()
 
 # Merge salary_df with geography_df to get 'State' and 'County' information
 salary_df = salary_df.merge(geography_df[['Area', 'State', 'CountyTownName']], on='Area', how='left')
 
-# Load BERT model once
+# Load BERT model and encode job duties once
 @st.cache_resource
-def load_model():
-    return SentenceTransformer('all-MiniLM-L6-v2')
-
-model = load_model()
-
-# Precompute job embeddings once
-@st.cache_resource
-def compute_job_embeddings(duties_df):
-    duties_df = duties_df.copy()
+def load_model_and_embeddings():
+    model = SentenceTransformer('all-MiniLM-L6-v2')
     duties_df['Job_Duties'] = duties_df['Job_Duties'].fillna('')
     job_duties_list = duties_df['Job_Duties'].tolist()
     job_embeddings = model.encode(job_duties_list, convert_to_tensor=True)
-    return duties_df, job_embeddings
+    return model, job_embeddings
 
-duties_df, job_embeddings = compute_job_embeddings(duties_df)
+model, job_embeddings = load_model_and_embeddings()
 
 # User Inputs
 st.title("Job Recommendation System")
@@ -105,19 +98,13 @@ if st.button("Find Jobs"):
     if not job_description.strip():
         st.warning("Please enter a job description.")
     else:
-        # Use local copies of DataFrames to avoid modifying global variables
-        filtered_salary = salary_df.copy()
-        filtered_education = education_df.copy()
-        filtered_prestige = prestige_df.copy()
-        duties_df_local = duties_df.copy()
-
         # Step 1: Filter DataFrames Based on User Inputs
 
         # 1.1 Filter salary_df by salary_input, state_input, and county_input
-        filtered_salary = filtered_salary[
-            (filtered_salary['Average'] >= salary_input) &
-            (filtered_salary['State'] == state_input) &
-            (filtered_salary['CountyTownName'] == county_input)
+        filtered_salary = salary_df[
+            (salary_df['Average'] >= salary_input) &
+            (salary_df['State'] == state_input) &
+            (salary_df['CountyTownName'] == county_input)
         ]
         filtered_salary = filtered_salary.drop_duplicates(subset='Soc Code')
 
@@ -130,19 +117,19 @@ if st.button("Find Jobs"):
             "master's degree": 4,
             'doctoral or professional degree': 5
         }
-        filtered_education['Education'] = filtered_education['Education'].str.lower().str.strip()
-        filtered_education['Education_Rank'] = filtered_education['Education'].map(education_level_mapping)
-        filtered_education['Education_Rank'] = filtered_education['Education_Rank'].fillna(0).astype(int)
+        education_df['Education'] = education_df['Education'].str.lower().str.strip()
+        education_df['Education_Rank'] = education_df['Education'].map(education_level_mapping)
+        education_df['Education_Rank'] = education_df['Education_Rank'].fillna(0).astype(int)
         # Include jobs that require the user's education level or lower
-        filtered_education = filtered_education[filtered_education['Education_Rank'] <= education_input]
+        filtered_education = education_df[education_df['Education_Rank'] <= education_input]
         filtered_education = filtered_education.drop_duplicates(subset='Soc Code')
 
         # 1.3 Filter prestige_df by prestige_input
-        filtered_prestige['GSS Ratings 2012'] = filtered_prestige['GSS Ratings 2012'].fillna(0)
-        prestige_min = filtered_prestige['GSS Ratings 2012'].min()
-        prestige_max = filtered_prestige['GSS Ratings 2012'].max()
-        filtered_prestige['Prestige_Normalized'] = 1 + 4 * (filtered_prestige['GSS Ratings 2012'] - prestige_min) / (prestige_max - prestige_min)
-        filtered_prestige = filtered_prestige[filtered_prestige['Prestige_Normalized'] >= prestige_input]
+        prestige_df['GSS Ratings 2012'] = prestige_df['GSS Ratings 2012'].fillna(0)
+        prestige_min = prestige_df['GSS Ratings 2012'].min()
+        prestige_max = prestige_df['GSS Ratings 2012'].max()
+        prestige_df['Prestige_Normalized'] = 1 + 4 * (prestige_df['GSS Ratings 2012'] - prestige_min) / (prestige_max - prestige_min)
+        filtered_prestige = prestige_df[prestige_df['Prestige_Normalized'] >= prestige_input]
         filtered_prestige = filtered_prestige.drop_duplicates(subset='Soc Code')
 
         # Step 2: Compute Similarities Using BERT
@@ -152,12 +139,12 @@ if st.button("Find Jobs"):
         # Compute cosine similarities
         cosine_similarities = util.cos_sim(user_embedding, job_embeddings)[0]
 
-        # Add similarities to the duties_df_local
-        duties_df_local['Similarity'] = cosine_similarities.cpu().numpy()
+        # Add similarities to the duties_df
+        duties_df['Similarity'] = cosine_similarities.cpu().numpy()
 
         # Find the top N matching job titles
-        top_n = 50
-        top_matches = duties_df_local.sort_values(by='Similarity', ascending=False).head(top_n)
+        top_n = 5  # You can adjust this number
+        top_matches = duties_df.sort_values(by='Similarity', ascending=False).head(top_n)
         top_matches = top_matches.drop_duplicates(subset='Soc Code')
 
         # Step 3: Perform VLOOKUP-like Filtering
@@ -200,14 +187,12 @@ if st.button("Find Jobs"):
 
         # Sort the final DataFrame by 'Similarity Score' descending
         final_df = final_df.sort_values(by='Similarity Score', ascending=False)
-
         # Display the final DataFrame
         if not final_df.empty:
             # Add hyperlink to 'Job Title'
             def create_onet_link(soc_code):
-                # Format the SOC code
-                formatted_soc_code = soc_code if '.' in soc_code else soc_code + '.00'
-                return f"https://www.onetonline.org/link/summary/{formatted_soc_code}"
+                formatted_soc_code = ''.join(filter(str.isdigit, str(soc_code)))
+                return f"https://www.onetonline.org/link/summary/{soc_code}.00"
 
             final_df['Job Title'] = final_df.apply(
                 lambda row: f"<a href='{create_onet_link(row['SOC Code'])}' target='_blank'>{row['Job Title']}</a>",
@@ -216,5 +201,29 @@ if st.button("Find Jobs"):
 
             st.markdown("### Recommended Jobs for You:")
             st.markdown(final_df.to_html(escape=False, index=False), unsafe_allow_html=True)
+
+            # Collect user feedback using functions from feedback.py
+            feedback, submit_feedback = collect_feedback(
+                final_df,
+                salary_input,
+                education_input_label,
+                prestige_input,
+                state_input,
+                county_input,
+                job_description
+            )
+
+            # Only attempt to save feedback if the form was submitted
+            if submit_feedback:
+                if feedback is not None:
+                    success = save_feedback(feedback)
+                    if success:
+                        st.success("Thank you for your feedback!")
+                    else:
+                        st.error("Feedback not saved!")
+                else:
+                    st.error("No feedback collected.")
+        else:
+            st.warning("No jobs found matching your criteria.")
         else:
             st.warning("No jobs found matching your criteria.")
