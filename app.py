@@ -86,9 +86,9 @@ def load_model():
 model = load_model()
 
 @st.cache_data(show_spinner=True)
-def compute_job_embeddings(model, job_duties):
+def compute_job_embeddings(_model, job_duties):
     """Compute and cache job embeddings as NumPy arrays."""
-    job_embeddings = model.encode(job_duties, convert_to_tensor=False, show_progress_bar=True)
+    job_embeddings = _model.encode(job_duties, convert_to_tensor=False, show_progress_bar=True)
     return job_embeddings
 
 job_embeddings = compute_job_embeddings(model, job_duties_list)
