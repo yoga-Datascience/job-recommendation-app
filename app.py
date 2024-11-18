@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
-from sentence_transformers import SentenceTransformer, util
-import torch
+from sentence_transformers import SentenceTransformer
+from sklearn.metrics.pairwise import cosine_similarity
 from feedback import collect_feedback, save_feedback
 
 # ----------------------------- #
@@ -78,13 +78,20 @@ job_duties_list = duties_df['Job_Duties'].tolist()
 # ----------------------------- #
 
 @st.cache_resource(show_spinner=True)
-def load_model_and_embeddings(job_duties):
-    """Load the SentenceTransformer model and compute embeddings for job duties."""
+def load_model():
+    """Load the SentenceTransformer model."""
     model = SentenceTransformer('all-MiniLM-L6-v2')
-    job_embeddings = model.encode(job_duties, convert_to_tensor=True, show_progress_bar=True)
-    return model, job_embeddings
+    return model
 
-model, job_embeddings = load_model_and_embeddings(job_duties_list)
+model = load_model()
+
+@st.cache_data(show_spinner=True)
+def compute_job_embeddings(model, job_duties):
+    """Compute and cache job embeddings as NumPy arrays."""
+    job_embeddings = model.encode(job_duties, convert_to_tensor=False, show_progress_bar=True)
+    return job_embeddings
+
+job_embeddings = compute_job_embeddings(model, job_duties_list)
 
 # ----------------------------- #
 #           UI Section           #
@@ -178,25 +185,14 @@ if st.button("Find Jobs"):
             # ----------------------------- #
 
             # Encode the user's job description
-            with torch.no_grad():
-                user_embedding = model.encode(job_description, convert_to_tensor=True)
+            user_embedding = model.encode(job_description, convert_to_tensor=False)
 
-                # Compute cosine similarities in batches
-                def compute_similarities(user_emb, job_emb, batch_size=1024):
-                    similarities = []
-                    num_embeddings = job_emb.size(0)
-                    for start_idx in range(0, num_embeddings, batch_size):
-                        end_idx = min(start_idx + batch_size, num_embeddings)
-                        batch = job_emb[start_idx:end_idx]
-                        batch_sim = util.cos_sim(user_emb, batch)
-                        similarities.append(batch_sim.cpu())
-                    return torch.cat(similarities, dim=1).squeeze(0)
+            # Compute cosine similarities using scikit-learn
+            cosine_similarities = cosine_similarity([user_embedding], job_embeddings)[0]
 
-                cosine_similarities = compute_similarities(user_embedding, job_embeddings)
-            
             # Create a local copy of duties_df and add similarity scores
             duties_df_local = duties_df.copy()
-            duties_df_local['Similarity'] = cosine_similarities.numpy()
+            duties_df_local['Similarity'] = cosine_similarities
 
             # Find the top N matching job titles
             top_n = 5  # Adjust as needed
