@@ -19,7 +19,7 @@ def collect_feedback(final_df, salary_input, education_input_label, prestige_inp
         ratings = {}
         for index, row in final_df.iterrows():
             rating = st.selectbox(
-                f"How relevant is '{row['Job Title']}' to your job search?",
+                f"How relevant is '{row['SOC Code']}' to your job search?",
                 ['Not Rated', 'Not Relevant', 'Somewhat Relevant', 'Relevant', 'Highly Relevant'],
                 index=0,
                 key=f"rating_{index}_{row['SOC Code']}"
